@@ -1,5 +1,6 @@
 <html>
   <head>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 <style>
  body {
   margin: 20px;
@@ -14,20 +15,44 @@
       font-size: 2rem;
       margin-bottom: 2rem;
     }
-    
-    blockquote {
-      font-style: italic;
-      color: #555;
-      border-left: 4px solid #ccc;
-      padding-left: 1rem;
-      margin-left: 0;
-    }
+  
     .emphasis {
       font-style: italic;
     }
     .strong {
       font-weight: bold;
     }
+
+      blockquote {
+      font-style: italic;
+      font-family: 'Dancing Script', cursive;
+      color: #444;
+      border-left: 4px solid #ccc;
+      background: #fff;
+      padding: 1rem 1.5rem;
+      margin: 0 auto;
+      max-width: 600px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      position: relative;
+      font-size: 2rem;
+    }
+    blockquote::before {
+      content: "“";
+      font-size: 3rem;
+      color: #ccc;
+      position: absolute;
+      left: 10px;
+      top: -10px;
+    }
+    blockquote::after {
+      content: "”";
+      font-size: 3rem;
+      color: #ccc;
+      position: absolute;
+      right: 10px;
+      bottom: -20px;
+    }
+  
   </style>
   </head>
 <body>
@@ -53,7 +78,7 @@
   <p>Also contributes to institutional committees and academic support activities.</p>
 
   <blockquote>
-    "Passionate about merging technology with academic services to improve access, efficiency, and research impact."
+    Passionate about merging technology with academic services to improve access, efficiency, and research impact.
   </blockquote>
 
 </body>
