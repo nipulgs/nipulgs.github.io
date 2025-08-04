@@ -114,30 +114,41 @@
     </div>
   </div>
 
-  <script>
-    function calculateDuration(start, end) {
-      const startDate = new Date(start + "-01");
-      const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
-      let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
-      months += endDate.getMonth() - startDate.getMonth();
-      const years = Math.floor(months / 12);
-      const remainingMonths = months % 12;
-      let durationText = "";
-      if (years > 0) durationText += `${years} Year${years > 1 ? 's' : ''}`;
-      if (remainingMonths > 0) durationText += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
-      return durationText.trim();
-    }
+ <script>
+  function calculateDuration(start, end) {
+    const startDate = new Date(start + "-01");
+    const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
 
-    document.querySelectorAll(".duration").forEach(el => {
-      const start = el.getAttribute("data-start");
-      const end = el.getAttribute("data-end");
-      const durationStr = calculateDuration(start, end);
-      el.textContent = `${new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' })} – ${end === 'present' ? 'Present' : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' })} (${durationStr})`;
-    });
-  </script>
+    let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
+    months += endDate.getMonth() - startDate.getMonth();
+    months += 1; // Include the end month
+
+    const years = Math.floor(months / 12);
+    const remainingMonths = months % 12;
+
+    let durationText = "";
+    if (years > 0) durationText += `${years} Year${years > 1 ? 's' : ''}`;
+    if (remainingMonths > 0) durationText += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
+    return durationText.trim();
+  }
+
+  document.querySelectorAll(".duration").forEach(el => {
+    const start = el.getAttribute("data-start");
+    const end = el.getAttribute("data-end");
+    const durationStr = calculateDuration(start, end);
+
+    const startFormatted = new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+    const endFormatted = end.toLowerCase() === 'present'
+      ? 'Present'
+      : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+
+    el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
+  });
+</script>
 
 </body>
 </html>
+
 
 
 
