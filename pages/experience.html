@@ -116,8 +116,8 @@
 
   <script>
     function calculateDuration(start, end) {
-      const startDate = new Date(start + "-00");
-      const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-00");
+      const startDate = new Date(start + "-01");
+      const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
       let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
       months += endDate.getMonth() - startDate.getMonth();
       const years = Math.floor(months / 12);
@@ -132,12 +132,13 @@
       const start = el.getAttribute("data-start");
       const end = el.getAttribute("data-end");
       const durationStr = calculateDuration(start, end);
-      el.textContent = `${new Date(start + '-00').toLocaleString('default', { month: 'short', year: 'numeric' })} – ${end === 'present' ? 'Present' : new Date(end + '-00').toLocaleString('default', { month: 'short', year: 'numeric' })} (${durationStr})`;
+      el.textContent = `${new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' })} – ${end === 'present' ? 'Present' : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' })} (${durationStr})`;
     });
   </script>
 
 </body>
 </html>
+
 
 
 
