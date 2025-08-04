@@ -54,6 +54,7 @@
 <body>
 
   <h1>Experience</h1>
+  <div id="total-experience"></div> <!-- Placeholder for total experience -->
 
   <div class="experience">
     <div class="experience-header">
@@ -114,7 +115,7 @@
     </div>
   </div>
 
- <script>
+<script>
   function calculateDuration(start, end) {
     const startDate = new Date(start + "-01");
     const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
@@ -123,31 +124,50 @@
     months += endDate.getMonth() - startDate.getMonth();
     months += 1; // Include the end month
 
-    const years = Math.floor(months / 12);
-    const remainingMonths = months % 12;
-
-    let durationText = "";
-    if (years > 0) durationText += `${years} Year${years > 1 ? 's' : ''}`;
-    if (remainingMonths > 0) durationText += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
-    return durationText.trim();
+    return months;
   }
 
-  document.querySelectorAll(".duration").forEach(el => {
-    const start = el.getAttribute("data-start");
-    const end = el.getAttribute("data-end");
-    const durationStr = calculateDuration(start, end);
+  function formatDuration(months) {
+    const years = Math.floor(months / 12);
+    const remainingMonths = months % 12;
+    let text = "";
+    if (years > 0) text += `${years} Year${years > 1 ? 's' : ''}`;
+    if (remainingMonths > 0) text += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
+    return text.trim();
+  }
 
-    const startFormatted = new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
-    const endFormatted = end.toLowerCase() === 'present'
-      ? 'Present'
-      : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+  document.addEventListener("DOMContentLoaded", () => {
+    let totalMonths = 0;
 
-    el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
+    document.querySelectorAll(".duration").forEach(el => {
+      const start = el.getAttribute("data-start");
+      const end = el.getAttribute("data-end");
+
+      const months = calculateDuration(start, end);
+      totalMonths += months;
+
+      const durationStr = formatDuration(months);
+      const startFormatted = new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+      const endFormatted = end.toLowerCase() === 'present'
+        ? 'Present'
+        : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+
+      el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
+    });
+
+    // Add total experience text
+    const totalDurationText = `Total Experience: ${formatDuration(totalMonths)}`;
+    const totalExpEl = document.getElementById("total-experience");
+    totalExpEl.textContent = totalDurationText;
+    totalExpEl.style.fontWeight = "bold";
+    totalExpEl.style.marginBottom = "20px";
+    totalExpEl.style.fontSize = "1.1rem";
+    totalExpEl.style.color = "#2c3e50";
   });
 </script>
-
 </body>
 </html>
+
 
 
 
