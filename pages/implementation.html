@@ -3,82 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Implementations - IIT Indore</title>
-  <link rel="stylesheet" href="style.css"> <!-- optional external CSS -->
+  <title>IT Implementations & Customizations - IIT Indore</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      margin: 0;
-      padding: 0;
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      color: #2c3e50;
+      line-height: 1.6;
+      background: #fff;
     }
-    header {
-/*       background: #002147;
-      color: white; */
-      padding: 15px;
-      text-align: center;
-    }
+
     h1 {
-      margin: 0;
+      text-align: left;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 2.0rem;
     }
+
+    p.header-subtitle {
+      margin-bottom: 35px;
+      font-size: 1rem;
+      color: #555;
+    }
+
     .container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-left: 6px solid #005a87;
+      border-radius: 8px;
+      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+      transition: box-shadow 0.3s ease, border-left-color 0.3s ease, transform 0.3s ease;
       padding: 20px;
     }
-    .card {
-      background: white;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
+
     .card:hover {
-      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      border-left-color: #0091ff;
+      transform: translateY(-4px);
     }
-    .card img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-    }
-    .card-content {
-      padding: 15px;
-    }
+
     .card-content h2 {
-      font-size: 18px;
+      font-size: 1.2rem;
+      font-weight: 700;
       margin-bottom: 10px;
-      color: #002147;
+      color: #222;
     }
+
     .card-content p {
-      font-size: 14px;
+      font-size: 0.95rem;
       color: #444;
+      margin-bottom: 12px;
     }
+
     .card-content a {
       display: inline-block;
-      margin-top: 10px;
-      padding: 8px 12px;
-      background: #002147;
-      color: white;
-      border-radius: 5px;
+      padding: 6px 14px;
+      background: #005a87;
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border-radius: 6px;
       text-decoration: none;
+      transition: background 0.3s ease;
     }
+
     .card-content a:hover {
-      background: #00509e;
+      background: #0091ff;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>IT Implementations & Costomizations</h1>
-    <p>Digital platforms and services developed and maintained at IIT Indore</p>
-  </header>
+  <h1>IT Implementations & Customizations</h1>
+  <p class="header-subtitle">Digital platforms and services developed and maintained at IIT Indore</p>
 
   <div class="container">
 
     <!-- Document Delivery Service -->
     <div class="card">
-<!--       <img src="images/dds.png" alt="DDS IIT Indore"> -->
       <div class="card-content">
         <h2>Document Delivery Service (DDS)</h2>
         <p>Helps faculty, researchers, and students request and access articles, reports, and other scholarly materials not directly available.</p>
@@ -88,9 +95,8 @@
 
     <!-- Library Website -->
     <div class="card">
-<!--       <img src="images/library.png" alt="Library IIT Indore"> -->
       <div class="card-content">
-        <h2>Library Website - (CMS)</h2>
+        <h2>Library Website (CMS)</h2>
         <p>Official Learning Resource Center (LRC) website providing access to e-resources, databases, institutional repository, and research support services.</p>
         <a href="https://library.iiti.ac.in/" target="_blank">Visit Site</a>
       </div>
@@ -98,7 +104,6 @@
 
     <!-- Koha OPAC -->
     <div class="card">
-<!--       <img src="images/koha.png" alt="Koha OPAC"> -->
       <div class="card-content">
         <h2>Library Management System (Koha)</h2>
         <p>The Online Public Access Catalogue (OPAC) for IIT Indore library holdings, supporting advanced search, circulation services, and user accounts.</p>
@@ -108,13 +113,13 @@
 
     <!-- DSpace Repository -->
     <div class="card">
-<!--       <img src="images/dspace.png" alt="DSpace IIT Indore"> -->
       <div class="card-content">
         <h2>Institutional Repository (DSpace)</h2>
         <p>The Institutional Digital Repository hosts theses, reports, publications, and other scholarly outputs of IIT Indore researchers and faculty.</p>
         <a href="https://dspace.iiti.ac.in/" target="_blank">Visit Site</a>
       </div>
     </div>
+
   </div>
 </body>
 </html>
