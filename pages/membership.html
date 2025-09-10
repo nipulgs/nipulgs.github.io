@@ -4,34 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Professional Memberships</title>
-  <link rel="stylesheet" href="../css/style.css">
   <style>
+    body {
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      color: #2c3e50;
+      line-height: 1.6;
+      background: #fff;
+    }
+
+    h1 {
+      text-align: left;
+      font-weight: 700;
+      margin-bottom: 40px;
+      font-size: 2.0rem;
+    }
+
     .memberships-list {
       list-style: none;
       padding: 0;
       max-width: 800px;
       margin: auto;
     }
+
     .memberships-list li {
-      padding: 15px 20px;
-      border-left: 4px solid #005a87;
-      background: #f9f9f9;
-      margin-bottom: 15px;
-      border-radius: 4px;
-      transition: background 0.3s, border-left-color 0.3s;
+      background: #fff;
+      margin-bottom: 18px;
+      border-left: 6px solid #005a87;
+      padding: 16px 22px;
+      border-radius: 8px;
+      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
     }
+
     .memberships-list li:hover {
-      background: #eef6fb;
-      border-left-color: #007acc;
+      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      border-left-color: #0091ff;
     }
+
     .membership-title {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #003366;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #222;
     }
+
+    .membership-title a {
+      color: #005a87;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .membership-title a:hover {
+      color: #0091ff;
+      text-decoration: underline;
+    }
+
     .membership-detail {
+      margin-top: 4px;
       font-size: 0.95rem;
-      color: #555;
+      color: #444;
     }
   </style>
 </head>
@@ -42,32 +74,48 @@
     <ul class="memberships-list">
       
       <li>
-        <div class="membership-title"><a href="https://www.salis.in/index.php" target="_blank">SALIS – Society for the Advancement of Library and Information Science</a>
-</div>
-<!--         <div class="membership-detail">Member since: 2025</div> -->
+        <div class="membership-title">
+          <a href="https://www.salis.in/index.php" target="_blank">
+            SALIS – Society for the Advancement of Library and Information Science
+          </a>
+        </div>
+        <!-- <div class="membership-detail">Member since: 2025</div> -->
       </li>
 
       <li>
-        <div class="membership-title"><a href="https://cgla.org.in/" target="_blank">CGLA – Central Government Library Association India</a>
-</div>
-<!--         <div class="membership-detail">Member since: 2025</div> -->
+        <div class="membership-title">
+          <a href="https://cgla.org.in/" target="_blank">
+            CGLA – Central Government Library Association India
+          </a>
+        </div>
+        <!-- <div class="membership-detail">Member since: 2025</div> -->
       </li>
       
       <li>
-        <div class="membership-title"><a href="https://www.iatlis.org/" target="_blank">IATLIS – Indian Association of Teachers of Library and Information Science</a>
-</div>
-<!--         <div class="membership-detail">Member since: 2024</div> -->
+        <div class="membership-title">
+          <a href="https://www.iatlis.org/" target="_blank">
+            IATLIS – Indian Association of Teachers of Library and Information Science
+          </a>
+        </div>
+        <!-- <div class="membership-detail">Member since: 2024</div> -->
       </li>
       
       <li>
-        <div class="membership-title"><a href="https://www.alibnet.org/" target="_blank">ADINET - Advance Information Network of Libraries in Gujarat</a>
-</div>
-<!--         <div class="membership-detail">Member since: 2016</div> -->
+        <div class="membership-title">
+          <a href="https://www.alibnet.org/" target="_blank">
+            ADINET – Advance Information Network of Libraries in Gujarat
+          </a>
+        </div>
+        <!-- <div class="membership-detail">Member since: 2016</div> -->
       </li>
       
       <li>
-        <div class="membership-title"><a href="https://ilaindia.co.in/" target="_blank">ILA - Indian Library Association India</a></div>
-<!--         <div class="membership-detail">Member since: 2015</div> -->
+        <div class="membership-title">
+          <a href="https://ilaindia.co.in/" target="_blank">
+            ILA – Indian Library Association India
+          </a>
+        </div>
+        <!-- <div class="membership-detail">Member since: 2015</div> -->
       </li>
     </ul>
 
