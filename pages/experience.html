@@ -1,28 +1,41 @@
-<html>
-  <head>
-<style>
-  body {
-  margin: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16px;
-  background: #fff;
-  color: #2c3e50;
-  line-height: 1.6;
-}
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      background: #fff;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+
     h1 {
       text-align: left;
-      font-size: 2rem;
-      margin-bottom: 2rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      font-size: 2.0rem;
     }
+
     .experience {
-      margin-bottom: 2rem;
-      padding: 1rem 1.5rem;
       background: #fff;
-      border-left: 4px solid #2c3e50;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-      position: relative;
+      margin-bottom: 18px;
+      border-left: 6px solid #005a87;
+      padding: 16px 22px;
+      border-radius: 8px;
+      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
     }
+
+    .experience:hover {
+      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      border-left-color: #0091ff;
+    }
+
     .experience-header {
       display: flex;
       justify-content: space-between;
@@ -30,24 +43,47 @@
       flex-wrap: wrap;
       gap: 0.5rem;
     }
+
     .position {
-      font-size: 1.2rem;
-      font-weight: bold;
-      color: #2c3e50;
-      flex: 1;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #222;
     }
+
     .duration {
       font-size: 0.95rem;
-      color: #777;
+      font-weight: 600;
+      color: #005a87;
       white-space: nowrap;
     }
+
     .institution {
-      font-weight: normal;
-      color: #555;
-      margin-top: 0.2rem;
+      font-style: italic;
+      color: #666;
+      margin-top: 4px;
     }
+
     .description {
-      margin-top: 0.6rem;
+      margin-top: 6px;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    #total-experience {
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: #2c3e50;
+    }
+
+    @media (max-width: 600px) {
+      .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .duration {
+        margin-top: 4px;
+      }
     }
   </style>
 </head>
@@ -58,13 +94,10 @@
 
   <div class="experience">
     <div class="experience-header">
-      <div class="position">Library Information Assistant (PayLevel - 6) </div>
+      <div class="position">Library Information Assistant (PayLevel - 6)</div>
       <div class="duration" data-start="2021-06" data-end="present"></div>
     </div>
     <div class="institution">Indian Institute of Technology (IIT) Indore</div>
-<!--     <div class="description">
-      Computer Applications in the LRC, Maintain RFID System, Maintain IDR & ShodhGanga, Faculty Profile Management, e-Resources Access management and Usage Analysis, and Document Delivery Services.
-    </div> -->
   </div>
 
   <div class="experience">
@@ -73,22 +106,14 @@
       <div class="duration" data-start="2018-09" data-end="2021-05"></div>
     </div>
     <div class="institution">INFLIBNET Centre Gandhinagar under e-ShodhSindhu: Consortium</div>
-<!--     <div class="description">
-      e-Resources Management, Support and troubleshooting, Maintain eRM System & University Directory, etc.<br />
-      Involved in various training programs and workshops arranged by the centre such as SOUL training, eRM - CORAL Workshop, KOHA Training etc.
-    </div> -->
   </div>
 
-    <div class="experience">
+  <div class="experience">
     <div class="experience-header">
       <div class="position">Project Associate (LS)</div>
       <div class="duration" data-start="2016-09" data-end="2018-08"></div>
     </div>
     <div class="institution">INFLIBNET Centre Gandhinagar, under e-ShodhSindhu: Consortium</div>
-<!--     <div class="description">
-      e-Resources Management, Support and troubleshooting, Maintain eRM System & University Directory etc.<br />
-      Involved in various training programs and workshops arranged by the centre such as SOUL training, eRM - CORAL Workshop, KOHA Training etc.
-    </div> -->
   </div>
 
   <div class="experience">
@@ -97,10 +122,6 @@
       <div class="duration" data-start="2014-12" data-end="2016-08"></div>
     </div>
     <div class="institution">Indian Institute of Technology (IIT) Bhubaneswar</div>
-<!--     <div class="description">
-      Performed various library activities such as Acquisition of Books, Technical Processing (DDC, MARC-21), RFID-based Circulation System, Database Searching, e-Resources Usage Analysis, Reference Services, Reader Services, IT Applications, Content Management of Library Portal etc.<br />
-      Also exposed to the use of LIBSYS and KOHA Library Automation Software.
-    </div> -->
   </div>
 
   <div class="experience">
@@ -109,71 +130,53 @@
       <div class="duration" data-start="2013-07" data-end="2014-07"></div>
     </div>
     <div class="institution">Indian Institute of Technology (IIT) Gandhinagar</div>
-<!--     <div class="description">
-      Acquisition, Collection Development, Classification and Cataloguing, Circulation with Reference Services, Journals Management, Document Delivery Service, Inter Library Loan, Reader Assistance Service, Stock Verification, Stack Area Maintenance & other related work etc.<br />
-      Explored SOUL Software.
-    </div> -->
   </div>
 
-<script>
-  function calculateDuration(start, end) {
-    const startDate = new Date(start + "-01");
-    const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
+  <script>
+    function calculateDuration(start, end) {
+      const startDate = new Date(start + "-01");
+      const endDate = end.toLowerCase() === "present" ? new Date() : new Date(end + "-01");
 
-    let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
-    months += endDate.getMonth() - startDate.getMonth();
-    months += 1; // Include the end month
+      let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
+      months += endDate.getMonth() - startDate.getMonth();
+      months += 1; // Include end month
 
-    return months;
-  }
+      return months;
+    }
 
-  function formatDuration(months) {
-    const years = Math.floor(months / 12);
-    const remainingMonths = months % 12;
-    let text = "";
-    if (years > 0) text += `${years} Year${years > 1 ? 's' : ''}`;
-    if (remainingMonths > 0) text += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
-    return text.trim();
-  }
+    function formatDuration(months) {
+      const years = Math.floor(months / 12);
+      const remainingMonths = months % 12;
+      let text = "";
+      if (years > 0) text += `${years} Year${years > 1 ? 's' : ''}`;
+      if (remainingMonths > 0) text += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
+      return text.trim();
+    }
 
-  document.addEventListener("DOMContentLoaded", () => {
-    let totalMonths = 0;
+    document.addEventListener("DOMContentLoaded", () => {
+      let totalMonths = 0;
 
-    document.querySelectorAll(".duration").forEach(el => {
-      const start = el.getAttribute("data-start");
-      const end = el.getAttribute("data-end");
+      document.querySelectorAll(".duration").forEach(el => {
+        const start = el.getAttribute("data-start");
+        const end = el.getAttribute("data-end");
 
-      const months = calculateDuration(start, end);
-      totalMonths += months;
+        const months = calculateDuration(start, end);
+        totalMonths += months;
 
-      const durationStr = formatDuration(months);
-      const startFormatted = new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
-      const endFormatted = end.toLowerCase() === 'present'
-        ? 'Present'
-        : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+        const durationStr = formatDuration(months);
+        const startFormatted = new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
+        const endFormatted = end.toLowerCase() === 'present'
+          ? 'Present'
+          : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
 
-      el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
+        el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
+      });
+
+      // Total experience text
+      const totalDurationText = `Total Experience: ${formatDuration(totalMonths)}`;
+      const totalExpEl = document.getElementById("total-experience");
+      totalExpEl.textContent = totalDurationText;
     });
-
-    // Add total experience text
-    const totalDurationText = `Total Experience: ${formatDuration(totalMonths)}`;
-    const totalExpEl = document.getElementById("total-experience");
-    totalExpEl.textContent = totalDurationText;
-    totalExpEl.style.fontWeight = "bold";
-    totalExpEl.style.marginBottom = "20px";
-    totalExpEl.style.fontSize = "1.1rem";
-    totalExpEl.style.color = "#2c3e50";
-  });
-</script>
+  </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
