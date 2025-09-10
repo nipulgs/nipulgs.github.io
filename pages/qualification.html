@@ -1,25 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color: #222;
-    margin: 20px;
-    line-height: 1.6;
-  }
+  <meta charset="UTF-8">
+  <title>Qualification</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      color: #2c3e50;
+      line-height: 1.6;
+      background: #fff;
+    }
+
     h1 {
       text-align: left;
-      font-size: 2rem;
-      margin-bottom: 2rem;
+      font-weight: 700;
+      margin-bottom: 40px;
+      font-size: 2.0rem;
     }
+
     .qualification {
-      margin-bottom: 1.5rem;
-      padding: 1rem 1.5rem;
       background: #fff;
-      border-left: 4px solid #2980b9;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      margin-bottom: 18px;
+      border-left: 6px solid #2980b9;
+      padding: 16px 22px;
+      border-radius: 8px;
+      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
     }
+
+    .qualification:hover {
+      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      border-left-color: #0091ff;
+    }
+
     .qualification-header {
       display: flex;
       justify-content: space-between;
@@ -27,24 +43,41 @@
       flex-wrap: wrap;
       gap: 0.5rem;
     }
+
     .degree {
       font-size: 1.1rem;
-      font-weight: bold;
-      color: #2c3e50;
+      font-weight: 700;
+      color: #222;
     }
+
     .year {
       font-size: 0.95rem;
-      color: #777;
+      font-weight: 600;
+      color: #005a87;
       white-space: nowrap;
     }
+
     .institute {
-      font-weight: normal;
-      color: #555;
-      margin-top: 0.2rem;
-    }
-    .grade {
-      margin-top: 0.4rem;
       font-style: italic;
+      color: #666;
+      margin-top: 4px;
+    }
+
+    .grade {
+      margin-top: 6px;
+      font-size: 0.95rem;
+      color: #444;
+      font-style: italic;
+    }
+
+    @media (max-width: 600px) {
+      .qualification-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .year {
+        margin-top: 4px;
+      }
     }
   </style>
 </head>
@@ -52,49 +85,45 @@
 
   <h1>Qualification</h1>
 
-    <div class="qualification">
+  <div class="qualification">
     <div class="qualification-header">
       <div class="degree">UGC - NET</div>
       <div class="year">2018, 2019</div>
     </div>
-    <div class="institute">University Grants Commission of Indian</div>
-    <div class="grade">Quilified for Assistant Professor/ Assistant Librarian </div>
+    <div class="institute">University Grants Commission of India</div>
+    <div class="grade">Qualified for Assistant Professor / Assistant Librarian</div>
   </div>
   
   <div class="qualification">
     <div class="qualification-header">
       <div class="degree">Master in Library and Information Science (M.LISc.)</div>
-      <div class="year">2012 - 2013</div>
+      <div class="year">2012 – 2013</div>
     </div>
-    <div class="institute">Sardar Patel University - Vallabh Vidyanagar</div>
-<!--     <div class="grade">Grade: First Class with 7.16 (CGPA)</div> -->
+    <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
   </div>
 
   <div class="qualification">
     <div class="qualification-header">
-      <div class="degree">Bachelor in Library and Information Science (B.LISc)</div>
-      <div class="year">2011 - 2012</div>
+      <div class="degree">Bachelor in Library and Information Science (B.LISc.)</div>
+      <div class="year">2011 – 2012</div>
     </div>
-    <div class="institute">Sardar Patel University - Vallabh Vidyanagar</div>
-<!--     <div class="grade">Grade: First Class with 6.93 (CGPA)</div> -->
+    <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
   </div>
 
   <div class="qualification">
     <div class="qualification-header">
       <div class="degree">Bachelor in Commerce (B.Com)</div>
-      <div class="year">2008 - 2011</div>
+      <div class="year">2008 – 2011</div>
     </div>
-    <div class="institute">Saurashtra University - Rajkot</div>
-<!--     <div class="grade">Grade: Second Class with 52.44% (Percentage)</div> -->
+    <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
   </div>
 
-<div class="qualification">
+  <div class="qualification">
     <div class="qualification-header">
       <div class="degree">Higher Secondary School Certificate</div>
       <div class="year">March 2008</div>
     </div>
-    <div class="institute">GSHSEB Gandhinagar</div>
-<!--     <div class="grade">Grade: Second Class with 53.57% (Percentage)</div> -->
+    <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
   </div>
 
   <div class="qualification">
@@ -102,9 +131,8 @@
       <div class="degree">Secondary School Certificate</div>
       <div class="year">March 2006</div>
     </div>
-    <div class="institute">GSHSEB Gandhinagar</div>
-<!--     <div class="grade">Grade: Second Class with 55.71% (Percentage)</div> -->
+    <div class="institute">GSHSEB, Gandhinagar</div>
   </div>
-  
+
 </body>
 </html>
