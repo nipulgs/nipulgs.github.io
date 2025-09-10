@@ -5,50 +5,93 @@
   <title>Publications</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-  body {
-  margin: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #fff;
-  color: #2c3e50;
-  line-height: 1.6;
-      }  
-/*     
-    .container {
-      max-width: 800px;
-      margin: auto;
+    body {
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      color: #2c3e50;
+      line-height: 1.6;
       background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    } */
+    }
+
     h1 {
       text-align: left;
-      margin-bottom: 30px;
+      font-weight: 700;
+      margin-bottom: 40px;
+      font-size: 2.0rem;
     }
+
+    .publications-list {
+      list-style: none;
+      padding: 0;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .publications-list li {
+      background: #fff;
+      margin-bottom: 18px;
+      border-left: 6px solid #005a87;
+      padding: 16px 22px;
+      border-radius: 8px;
+      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
+    }
+
+    .publications-list li:hover {
+      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      border-left-color: #0091ff;
+    }
+
+    .label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 12px;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-right: 10px;
+    }
+
+    .Journal { background: #2980b9; }
+    .Conference { background: #c0392b; }
+    .Book { background: #8e44ad; }
+    .Chapter { background: #16a085; }
+
     .citation {
-      margin-bottom: 20px;
+      font-size: 1rem;
+      color: #333;
       line-height: 1.6;
+      display: inline-block;
     }
+
     .citation a {
-      color: #0073e6;
+      color: #005a87;
       text-decoration: none;
+      transition: color 0.3s ease;
     }
+
     .citation a:hover {
+      color: #0091ff;
       text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <main class="content-area">
     <h1>Publications</h1>
 
-    <div class="citation">
-      Ahirwar, R., T R, M., & Shihora, N. (2019). The impact of academic libraries in enhancing institutional NIRF  Ranking: A study. 154–159.
-    </div>
+    <ul class="publications-list">
 
-    <!-- Add more citations in the same format -->
+      <li>
+        <span class="label Conference">Conference</span>
+        <div class="citation">
+          Ahirwar, R., T R, M., & Shihora, N. (2019). The impact of academic libraries in enhancing institutional NIRF Ranking: A study. 154–159.
+        </div>
+      </li>
 
-  </div>
+    </ul>
+  </main>
 </body>
 </html>
-
