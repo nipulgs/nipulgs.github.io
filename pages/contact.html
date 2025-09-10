@@ -6,67 +6,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <style>
- body {
-  margin: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #fff;
-  color: #2c3e50;
-   line-height: 1.6;
-      } 
-/*     .card {
-      max-width: 700px;
-      margin: 60px auto;
-      background-color: #ffffff;
-      border-radius: 16px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-      padding: 40px;
-      text-align: left;
-      transition: transform 0.3s ease;
+    body {
+      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #2c3e50;
+      line-height: 1.6;
     }
 
-    .card:hover {
-      transform: translateY(-5px);
-    } */
-
     h1 {
-      margin-bottom: 5px;
-      font-size: 2rem;
-      font-weight: 600;
-/*       color: #2c3e50; */
+      text-align: left;
+      font-weight: 700;
+      margin-bottom: 25px;
+      font-size: 2.0rem;
+      color: #2c3e50;
+    }
+
+    .contact-card {
+      background: #fff;
+      margin-bottom: 18px;
+      border-left: 6px solid #005a87;
+      padding: 20px 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
+    }
+
+    .contact-card:hover {
+      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      border-left-color: #0091ff;
     }
 
     h2 {
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: #555;
-      margin-bottom: 30px;
-    }
-
-    .divider {
-      height: 1px;
-      background-color: #e0e0e0;
-      margin: 25px 0;
-    }
-
-    .info {
-      font-size: 1rem;
-      line-height: 1.8;
-      color: #444;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #005a87;
+      margin-bottom: 15px;
     }
 
     .info p {
-      margin: 15px 0;
-      line-height: 1.8;
-      font-size: 1.05rem;
+      margin: 12px 0;
+      font-size: 1rem;
+      color: #444;
     }
 
     .info i {
       margin-right: 10px;
-      color: #0077b5;
+      color: #005a87;
     }
 
     a {
-      color: #0077b5;
+      color: #005a87;
       text-decoration: none;
     }
 
@@ -75,48 +65,42 @@
     }
 
     .social-icons {
-      margin-top: 40px;
+      margin-top: 20px;
     }
 
     .social-icons a {
       display: inline-block;
-      margin: 0 16px;
+      margin: 0 12px;
       font-size: 1.5rem;
       color: #444;
       transition: color 0.3s;
     }
 
     .social-icons a:hover {
-      color: #0077b5;
+      color: #0091ff;
     }
 
-/*     @media (max-width: 600px) {
-      .card {
-        margin: 20px;
-        padding: 25px;
-      }
-
+    @media (max-width: 600px) {
       h1 {
         font-size: 1.6rem;
       }
-
       h2 {
         font-size: 1rem;
       }
-    } */
+    }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h1><span style="font-size:0.8em; color:#777;">Contact</span></h1>
+
+  <h1>Contact</h1>
+
+  <div class="contact-card">
     <h2>
       Nipul Gordhanbhai Shihora <i>(he/his)</i><br>
       Library Information Assistant<br>
       Learning Resource Center,<br>
       <b>Indian Institute of Technology (IIT) Indore</b>
     </h2>
-
-    <div class="divider"></div>
 
     <div class="info">
       <p><i class="fas fa-map-marker-alt"></i>Khandwa Road, Simrol, Indore – 453552, INDIA</p>
@@ -131,5 +115,6 @@
       <a href="https://scholar.google.com/citations?user=y3eRWSMAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
     </div>
   </div>
+
 </body>
 </html>
