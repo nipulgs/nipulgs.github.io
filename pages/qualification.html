@@ -2,68 +2,82 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Qualification</title>
+  <title>Qualification Timeline</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 20px;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 16px;
+      background: #fff;
       color: #2c3e50;
       line-height: 1.6;
-      background: #fff;
     }
 
     h1 {
-      text-align: left;
       font-weight: 700;
-      margin-bottom: 40px;
-      font-size: 2.0rem;
+      margin-bottom: 30px;
+      font-size: 2rem;
     }
 
+    /* Timeline container */
     .timeline {
       position: relative;
-      margin-left: 160px;
-      border-left: 3px solid #2980b9;
-      padding-left: 40px;
+      margin: 0;
+      padding: 0;
     }
 
-    .timeline-item {
+    /* Timeline line */
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #2980b9;
+      transform: translateX(-50%);
+    }
+
+    /* Timeline item */
+    .qualification {
       position: relative;
+      display: flex;
+      justify-content: space-between;
       margin-bottom: 40px;
     }
 
-    .timeline-item::before {
-      content: '';
+    /* Left side (year/period) */
+    .left {
+      width: 45%;
+      text-align: right;
+      padding-right: 20px;
+    }
+
+    .year {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #2980b9;
+    }
+
+    /* Middle dot */
+    .dot {
       position: absolute;
-      left: -49px;
-      top: 6px;
-      width: 15px;
-      height: 15px;
-      background: #2980b9;
+      left: 50%;
+      top: 8px;
+      transform: translateX(-50%);
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
+      background: #2980b9;
       border: 2px solid #fff;
       box-shadow: 0 0 0 2px #2980b9;
     }
 
-    .timeline-date {
-      position: absolute;
-      left: -160px;
-      width: 120px;
-      text-align: right;
-      font-weight: 600;
-      color: #005a87;
-    }
-
-    .timeline-duration {
-      position: absolute;
-      left: -160px;
-      width: 120px;
-      text-align: right;
-      font-size: 0.85rem;
-      color: #444;
-      margin-top: 22px;
-      font-style: italic;
+    /* Right side (qualification info) */
+    .right {
+      width: 45%;
+      padding-left: 20px;
     }
 
     .degree {
@@ -73,29 +87,36 @@
     }
 
     .institute {
-      font-style: italic;
-      color: #666;
-      margin-top: 4px;
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 2px;
     }
 
     .grade {
-      margin-top: 6px;
-      font-size: 0.95rem;
+      margin-top: 4px;
+      font-size: 0.9rem;
       color: #444;
       font-style: italic;
     }
 
-    @media (max-width: 800px) {
-      .timeline {
-        margin-left: 20px;
-        padding-left: 20px;
+    @media (max-width: 768px) {
+      .qualification {
+        flex-direction: column;
+        text-align: left;
       }
-      .timeline-date, .timeline-duration {
-        position: relative;
-        left: 0;
+      .left, .right {
         width: 100%;
         text-align: left;
-        margin-bottom: 4px;
+        padding: 0;
+      }
+      .dot {
+        left: 0;
+        transform: none;
+        margin-left: -10px;
+      }
+      .timeline::before {
+        left: 0;
+        transform: none;
       }
     }
   </style>
@@ -106,83 +127,74 @@
 
   <div class="timeline">
 
-    <div class="timeline-item" data-start="2018-06" data-end="2019-12">
-      <div class="timeline-date">2018, 2019</div>
-      <div class="timeline-duration"></div>
-      <div class="degree">UGC - NET</div>
-      <div class="institute">University Grants Commission of India</div>
-      <div class="grade">Qualified for Assistant Professor / Assistant Librarian</div>
+    <div class="qualification">
+      <div class="left">
+        <div class="year">2018, 2019</div>
+      </div>
+      <div class="dot"></div>
+      <div class="right">
+        <div class="degree">UGC - NET</div>
+        <div class="institute">University Grants Commission of India</div>
+        <div class="grade">Qualified for Assistant Professor / Assistant Librarian</div>
+      </div>
     </div>
 
-    <div class="timeline-item" data-start="2012-07" data-end="2013-05">
-      <div class="timeline-date">2012 – 2013</div>
-      <div class="timeline-duration"></div>
-      <div class="degree">Master in Library and Information Science (M.LISc.)</div>
-      <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+    <div class="qualification">
+      <div class="left">
+        <div class="year">2012 – 2013</div>
+      </div>
+      <div class="dot"></div>
+      <div class="right">
+        <div class="degree">Master in Library and Information Science (M.LISc.)</div>
+        <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+      </div>
     </div>
 
-    <div class="timeline-item" data-start="2011-07" data-end="2012-05">
-      <div class="timeline-date">2011 – 2012</div>
-      <div class="timeline-duration"></div>
-      <div class="degree">Bachelor in Library and Information Science (B.LISc.)</div>
-      <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+    <div class="qualification">
+      <div class="left">
+        <div class="year">2011 – 2012</div>
+      </div>
+      <div class="dot"></div>
+      <div class="right">
+        <div class="degree">Bachelor in Library and Information Science (B.LISc.)</div>
+        <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+      </div>
     </div>
 
-    <div class="timeline-item" data-start="2008-07" data-end="2011-05">
-      <div class="timeline-date">2008 – 2011</div>
-      <div class="timeline-duration"></div>
-      <div class="degree">Bachelor in Commerce (B.Com)</div>
-      <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
+    <div class="qualification">
+      <div class="left">
+        <div class="year">2008 – 2011</div>
+      </div>
+      <div class="dot"></div>
+      <div class="right">
+        <div class="degree">Bachelor in Commerce (B.Com)</div>
+        <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
+      </div>
     </div>
 
-    <div class="timeline-item" data-start="2008-03" data-end="2008-03">
-      <div class="timeline-date">March 2008</div>
-      <div class="timeline-duration"></div>
-      <div class="degree">Higher Secondary School Certificate</div>
-      <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+    <div class="qualification">
+      <div class="left">
+        <div class="year">March 2008</div>
+      </div>
+      <div class="dot"></div>
+      <div class="right">
+        <div class="degree">Higher Secondary School Certificate</div>
+        <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+      </div>
     </div>
 
-    <div class="timeline-item" data-start="2006-03" data-end="2006-03">
-      <div class="timeline-date">March 2006</div>
-      <div class="timeline-duration"></div>
-      <div class="degree">Secondary School Certificate</div>
-      <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+    <div class="qualification">
+      <div class="left">
+        <div class="year">March 2006</div>
+      </div>
+      <div class="dot"></div>
+      <div class="right">
+        <div class="degree">Secondary School Certificate</div>
+        <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+      </div>
     </div>
 
   </div>
-
-  <script>
-    function calculateDuration(start, end) {
-      const startDate = new Date(start + "-01");
-      const endDate = new Date(end + "-01");
-
-      let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
-      months += endDate.getMonth() - startDate.getMonth();
-      months += 1;
-
-      return months;
-    }
-
-    function formatDuration(months) {
-      const years = Math.floor(months / 12);
-      const remainingMonths = months % 12;
-      let text = "";
-      if (years > 0) text += `${years} Year${years > 1 ? 's' : ''}`;
-      if (remainingMonths > 0) text += ` ${remainingMonths} Month${remainingMonths > 1 ? 's' : ''}`;
-      return text.trim() || "Completed";
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-      document.querySelectorAll(".timeline-item").forEach(item => {
-        const start = item.getAttribute("data-start");
-        const end = item.getAttribute("data-end");
-        const durationEl = item.querySelector(".timeline-duration");
-
-        const months = calculateDuration(start, end);
-        durationEl.textContent = formatDuration(months);
-      });
-    });
-  </script>
 
 </body>
 </html>
