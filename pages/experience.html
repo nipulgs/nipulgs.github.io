@@ -18,22 +18,43 @@
       text-align: left;
       font-weight: 700;
       margin-bottom: 40px;
-      font-size: 2.0rem;
+      font-size: 2rem;
     }
 
+    #total-experience {
+      font-weight: 700;
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+      color: #2c3e50;
+    }
+
+    /* Timeline container */
+    .timeline {
+      position: relative;
+      margin: 0;
+      padding: 0 0 0 30px;
+      border-left: 3px solid #005a87;
+    }
+
+    /* Timeline item */
     .experience {
-      background: #fff;
-      margin-bottom: 18px;
-      border-left: 6px solid #005a87;
-      padding: 16px 22px;
-      border-radius: 8px;
-      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
-      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
+      position: relative;
+      margin-bottom: 40px;
+      padding-left: 20px;
     }
 
-    .experience:hover {
-      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
-      border-left-color: #0091ff;
+    /* Dot on timeline */
+    .experience::before {
+      content: '';
+      position: absolute;
+      left: -11px;
+      top: 5px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #005a87;
+      border: 3px solid #fff;
+      box-shadow: 0 0 0 2px #005a87;
     }
 
     .experience-header {
@@ -63,19 +84,6 @@
       margin-top: 4px;
     }
 
-    .description {
-      margin-top: 6px;
-      font-size: 0.95rem;
-      color: #444;
-    }
-
-    #total-experience {
-      font-weight: 700;
-      margin-bottom: 20px;
-      font-size: 1.1rem;
-      color: #2c3e50;
-    }
-
     @media (max-width: 600px) {
       .experience-header {
         flex-direction: column;
@@ -90,42 +98,44 @@
 <body>
 
   <h1>Experience</h1>
-  <div id="total-experience"></div> <!-- Placeholder for total experience -->
+  <div id="total-experience"></div>
 
-  <div class="experience">
-    <div class="experience-header">
-      <div class="position">Library Information Assistant (PayLevel - 6)</div>
-      <div class="duration" data-start="2021-06" data-end="present"></div>
+  <div class="timeline">
+    <div class="experience">
+      <div class="experience-header">
+        <div class="position">Library Information Assistant (PayLevel - 6)</div>
+        <div class="duration" data-start="2021-06" data-end="present"></div>
+      </div>
+      <div class="institution">Learning Resource Center</div>
+      <div class="institution">Indian Institute of Technology (IIT) Indore, Madhya Pradesh</div>
     </div>
-    <div class="institution">Learning Resource Center</div>
-    <div class="institution">Indian Institute of Technology (IIT) Indore, Madhya Pradesh</div>
-  </div>
 
-  <div class="experience">
-    <div class="experience-header">
-      <div class="position">Project Officer, Project Associate</div>
-      <div class="duration" data-start="2016-09" data-end="2021-05"></div>
+    <div class="experience">
+      <div class="experience-header">
+        <div class="position">Project Officer, Project Associate</div>
+        <div class="duration" data-start="2016-09" data-end="2021-05"></div>
+      </div>
+      <div class="institution">e-ShodhSindhu: Consortium</div>
+      <div class="institution">INFLIBNET Centre Gandhinagar, Gujarat</div>
     </div>
-    <div class="institution">e-ShodhSindhu: Consortium</div>
-    <div class="institution">INFLIBNET Centre Gandhinagar, Gujarat</div>
-  </div>
-  
-  <div class="experience">
-    <div class="experience-header">
-      <div class="position">Library Professional Assistant/Trainee</div>
-      <div class="duration" data-start="2014-12" data-end="2016-08"></div>
+    
+    <div class="experience">
+      <div class="experience-header">
+        <div class="position">Library Professional Assistant/Trainee</div>
+        <div class="duration" data-start="2014-12" data-end="2016-08"></div>
+      </div>
+      <div class="institution">Central Library</div>
+      <div class="institution">Indian Institute of Technology (IIT) Bhubaneswar, Odisha</div>
     </div>
-    <div class="institution">Central Library</div>
-    <div class="institution">Indian Institute of Technology (IIT) Bhubaneswar, Odisha</div>
-  </div>
 
-  <div class="experience">
-    <div class="experience-header">
-      <div class="position">Library Assistant/Trainee</div>
-      <div class="duration" data-start="2013-07" data-end="2014-07"></div>
+    <div class="experience">
+      <div class="experience-header">
+        <div class="position">Library Assistant/Trainee</div>
+        <div class="duration" data-start="2013-07" data-end="2014-07"></div>
+      </div>
+      <div class="institution">Central Library</div>
+      <div class="institution">Indian Institute of Technology (IIT) Gandhinagar, Gujarat</div>
     </div>
-    <div class="institution">Central Library</div>
-    <div class="institution">Indian Institute of Technology (IIT) Gandhinagar, Gujarat</div>
   </div>
 
   <script>
@@ -135,7 +145,7 @@
 
       let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
       months += endDate.getMonth() - startDate.getMonth();
-      months += 1; // Include end month
+      months += 1;
 
       return months;
     }
@@ -168,15 +178,9 @@
         el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
       });
 
-      // Total experience text
       const totalDurationText = `Total Experience: ${formatDuration(totalMonths)}`;
-      const totalExpEl = document.getElementById("total-experience");
-      totalExpEl.textContent = totalDurationText;
+      document.getElementById("total-experience").textContent = totalDurationText;
     });
   </script>
 </body>
 </html>
-
-
-
-
