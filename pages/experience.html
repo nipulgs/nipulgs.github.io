@@ -15,15 +15,14 @@
     }
 
     h1 {
-      text-align: left;
       font-weight: 700;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       font-size: 2rem;
     }
 
     #total-experience {
       font-weight: 700;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       font-size: 1.1rem;
       color: #2c3e50;
     }
@@ -32,37 +31,36 @@
     .timeline {
       position: relative;
       margin: 0;
-      padding: 0 0 0 30px;
+      padding-left: 30px;
       border-left: 3px solid #005a87;
     }
 
     /* Timeline item */
     .experience {
       position: relative;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       padding-left: 20px;
     }
 
-    /* Dot on timeline */
+    /* Dot on the timeline */
     .experience::before {
       content: '';
       position: absolute;
-      left: -11px;
-      top: 5px;
+      left: -12px;
+      top: 4px;
       width: 16px;
       height: 16px;
       border-radius: 50%;
       background: #005a87;
-      border: 3px solid #fff;
+      border: 2px solid #fff;
       box-shadow: 0 0 0 2px #005a87;
     }
 
-    .experience-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+    .duration {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #005a87;
+      margin-bottom: 3px;
     }
 
     .position {
@@ -71,26 +69,18 @@
       color: #222;
     }
 
-    .duration {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #005a87;
-      white-space: nowrap;
-    }
-
     .institution {
-      font-style: italic;
-      color: #666;
-      margin-top: 4px;
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 2px;
     }
 
     @media (max-width: 600px) {
-      .experience-header {
-        flex-direction: column;
-        align-items: flex-start;
+      .timeline {
+        padding-left: 20px;
       }
-      .duration {
-        margin-top: 4px;
+      .experience {
+        padding-left: 15px;
       }
     }
   </style>
@@ -102,39 +92,27 @@
 
   <div class="timeline">
     <div class="experience">
-      <div class="experience-header">
-        <div class="position">Library Information Assistant (PayLevel - 6)</div>
-        <div class="duration" data-start="2021-06" data-end="present"></div>
-      </div>
-      <div class="institution">Learning Resource Center</div>
-      <div class="institution">Indian Institute of Technology (IIT) Indore, Madhya Pradesh</div>
+      <div class="duration" data-start="2021-06" data-end="present"></div>
+      <div class="position">Library and Information Assistant</div>
+      <div class="institution">Indian Institute of Technology Indore, Indore</div>
     </div>
 
     <div class="experience">
-      <div class="experience-header">
-        <div class="position">Project Officer, Project Associate</div>
-        <div class="duration" data-start="2016-09" data-end="2021-05"></div>
-      </div>
-      <div class="institution">e-ShodhSindhu: Consortium</div>
-      <div class="institution">INFLIBNET Centre Gandhinagar, Gujarat</div>
+      <div class="duration" data-start="2016-09" data-end="2021-05"></div>
+      <div class="position">Project Officer</div>
+      <div class="institution">Information and Library Network Centre, Gandhinagar</div>
     </div>
     
     <div class="experience">
-      <div class="experience-header">
-        <div class="position">Library Professional Assistant/Trainee</div>
-        <div class="duration" data-start="2014-12" data-end="2016-08"></div>
-      </div>
-      <div class="institution">Central Library</div>
-      <div class="institution">Indian Institute of Technology (IIT) Bhubaneswar, Odisha</div>
+      <div class="duration" data-start="2014-12" data-end="2016-08"></div>
+      <div class="position">Library Trainee</div>
+      <div class="institution">Indian Institute of Technology Bhubaneswar, Khordha</div>
     </div>
 
     <div class="experience">
-      <div class="experience-header">
-        <div class="position">Library Assistant/Trainee</div>
-        <div class="duration" data-start="2013-07" data-end="2014-07"></div>
-      </div>
-      <div class="institution">Central Library</div>
-      <div class="institution">Indian Institute of Technology (IIT) Gandhinagar, Gujarat</div>
+      <div class="duration" data-start="2013-07" data-end="2014-07"></div>
+      <div class="position">Library Trainee</div>
+      <div class="institution">Indian Institute of Technology Gandhinagar, Gandhinagar</div>
     </div>
   </div>
 
@@ -178,8 +156,8 @@
         el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
       });
 
-      const totalDurationText = `Total Experience: ${formatDuration(totalMonths)}`;
-      document.getElementById("total-experience").textContent = totalDurationText;
+      document.getElementById("total-experience").textContent =
+        `Total Experience: ${formatDuration(totalMonths)}`;
     });
   </script>
 </body>
