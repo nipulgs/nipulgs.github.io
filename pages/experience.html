@@ -57,25 +57,39 @@
       white-space: nowrap;
     }
 
+    /* Institution box with logo at left */
     .institution {
-      font-style: italic;
-      color: #666;
-      margin-top: 4px;
       display: flex;
       align-items: center;
-      gap: 8px; /* spacing between logo and text */
+      margin-top: 8px;
+      background: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 8px 12px;
+      gap: 12px;
     }
 
-    .institution img {
-      width: 20px;
-      height: 20px;
+    .institution-logo {
+      flex: 0 0 40px; /* fixed width */
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    .institution-logo img {
+      max-width: 100%;
+      max-height: 100%;
       object-fit: contain;
     }
 
-    .description {
-      margin-top: 6px;
-      font-size: 0.95rem;
+    .institution-name {
+      font-style: italic;
       color: #444;
+      font-size: 0.95rem;
     }
 
     #total-experience {
@@ -99,29 +113,50 @@
 <body>
 
   <h1>Experience</h1>
-  <div id="total-experience"></div> <!-- Placeholder for total experience -->
+  <div id="total-experience"></div>
 
   <div class="experience">
     <div class="experience-header">
       <div class="position">Library Information Assistant (PayLevel - 6)</div>
       <div class="duration" data-start="2021-06" data-end="present"></div>
     </div>
-    <div class="institution">Learning Resource Center</div>
     <div class="institution">
-      <img src="images/iit-indore-logo.png" alt="IIT Indore Logo">
-      Indian Institute of Technology (IIT) Indore, Madhya Pradesh
+      <div class="institution-logo">
+        <img src="iit-indore-logo.png" alt="IIT Indore Logo">
+      </div>
+      <div class="institution-name">
+        Indian Institute of Technology (IIT) Indore, Madhya Pradesh
+      </div>
     </div>
   </div>
 
   <div class="experience">
     <div class="experience-header">
-      <div class="position">Project Officer - (LS), Project Associate (LS)</div>
-      <div class="duration" data-start="2016-09" data-end="2021-05"></div>
+      <div class="position">Project Officer - (LS)</div>
+      <div class="duration" data-start="2018-09" data-end="2021-05"></div>
     </div>
-    <div class="institution">e-ShodhSindhu: Consortium</div>
     <div class="institution">
-      <img src="images/inflibnet-logo.png" alt="INFLIBNET Logo">
-      INFLIBNET Centre Gandhinagar, Gujarat
+      <div class="institution-logo">
+        <img src="inflibnet-logo.png" alt="INFLIBNET Logo">
+      </div>
+      <div class="institution-name">
+        INFLIBNET Centre Gandhinagar, Gujarat
+      </div>
+    </div>
+  </div>
+
+  <div class="experience">
+    <div class="experience-header">
+      <div class="position">Project Associate (LS)</div>
+      <div class="duration" data-start="2016-09" data-end="2018-08"></div>
+    </div>
+    <div class="institution">
+      <div class="institution-logo">
+        <img src="inflibnet-logo.png" alt="INFLIBNET Logo">
+      </div>
+      <div class="institution-name">
+        INFLIBNET Centre Gandhinagar, Gujarat
+      </div>
     </div>
   </div>
 
@@ -130,10 +165,13 @@
       <div class="position">Library Professional Assistant/Trainee</div>
       <div class="duration" data-start="2014-12" data-end="2016-08"></div>
     </div>
-    <div class="institution">Central Library</div>
     <div class="institution">
-      <img src="images/iit-bhubaneswar-logo.png" alt="IIT Bhubaneswar Logo">
-      Indian Institute of Technology (IIT) Bhubaneswar, Odisha
+      <div class="institution-logo">
+        <img src="iit-bhubaneswar-logo.png" alt="IIT Bhubaneswar Logo">
+      </div>
+      <div class="institution-name">
+        Indian Institute of Technology (IIT) Bhubaneswar, Odisha
+      </div>
     </div>
   </div>
 
@@ -142,10 +180,13 @@
       <div class="position">Library Assistant/Trainee</div>
       <div class="duration" data-start="2013-07" data-end="2014-07"></div>
     </div>
-    <div class="institution">Central Library</div>
     <div class="institution">
-      <img src="images/iit-gandhinagar-logo.png" alt="IIT Gandhinagar Logo">
-      Indian Institute of Technology (IIT) Gandhinagar, Gujarat
+      <div class="institution-logo">
+        <img src="iit-gandhinagar-logo.png" alt="IIT Gandhinagar Logo">
+      </div>
+      <div class="institution-name">
+        Indian Institute of Technology (IIT) Gandhinagar, Gujarat
+      </div>
     </div>
   </div>
 
@@ -156,8 +197,7 @@
 
       let months = (endDate.getFullYear() - startDate.getFullYear()) * 12;
       months += endDate.getMonth() - startDate.getMonth();
-      months += 1; // Include end month
-
+      months += 1;
       return months;
     }
 
@@ -172,30 +212,21 @@
 
     document.addEventListener("DOMContentLoaded", () => {
       let totalMonths = 0;
-
       document.querySelectorAll(".duration").forEach(el => {
         const start = el.getAttribute("data-start");
         const end = el.getAttribute("data-end");
-
         const months = calculateDuration(start, end);
         totalMonths += months;
-
         const durationStr = formatDuration(months);
         const startFormatted = new Date(start + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
         const endFormatted = end.toLowerCase() === 'present'
           ? 'Present'
           : new Date(end + '-01').toLocaleString('default', { month: 'short', year: 'numeric' });
-
         el.textContent = `${startFormatted} – ${endFormatted} (${durationStr})`;
       });
-
-      // Total experience text
-      const totalDurationText = `Total Experience: ${formatDuration(totalMonths)}`;
-      const totalExpEl = document.getElementById("total-experience");
-      totalExpEl.textContent = totalDurationText;
+      document.getElementById("total-experience").textContent =
+        `Total Experience: ${formatDuration(totalMonths)}`;
     });
   </script>
 </body>
 </html>
-
-
