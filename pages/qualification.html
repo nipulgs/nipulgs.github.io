@@ -21,40 +21,51 @@
       font-size: 2.0rem;
     }
 
-    .qualification {
+    .timeline {
+      position: relative;
+      margin-left: 50px;
+      padding-left: 30px;
+      border-left: 3px solid #2980b9;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 35px;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -38px;
+      top: 5px;
+      width: 15px;
+      height: 15px;
+      background: #2980b9;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 2px #2980b9;
+    }
+
+    .timeline-date {
+      position: absolute;
+      left: -160px;
+      width: 120px;
+      text-align: right;
+      font-weight: 600;
+      color: #005a87;
+    }
+
+    .timeline-content {
       background: #fff;
-      margin-bottom: 18px;
-      border-left: 6px solid #2980b9;
-      padding: 16px 22px;
-      border-radius: 8px;
-      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
-      transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
-    }
-
-    .qualification:hover {
-      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
-      border-left-color: #0091ff;
-    }
-
-    .qualification-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 0.5rem;
+      padding: 10px 15px;
+      border-radius: 6px;
+      box-shadow: 0 2px 7px rgba(0,0,0,0.1);
     }
 
     .degree {
       font-size: 1.1rem;
       font-weight: 700;
       color: #222;
-    }
-
-    .year {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #005a87;
-      white-space: nowrap;
     }
 
     .institute {
@@ -70,13 +81,17 @@
       font-style: italic;
     }
 
-    @media (max-width: 600px) {
-      .qualification-header {
-        flex-direction: column;
-        align-items: flex-start;
+    @media (max-width: 800px) {
+      .timeline-date {
+        position: relative;
+        left: 0;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
       }
-      .year {
-        margin-top: 4px;
+      .timeline {
+        margin-left: 20px;
+        padding-left: 20px;
       }
     }
   </style>
@@ -85,55 +100,58 @@
 
   <h1>Qualification</h1>
 
-  <div class="qualification">
-    <div class="qualification-header">
-      <div class="degree">UGC - NET</div>
-      <div class="year">2018, 2019</div>
-    </div>
-    <div class="institute">University Grants Commission of India</div>
-    <div class="grade">Qualified for Assistant Professor / Assistant Librarian</div>
-  </div>
-  
-  <div class="qualification">
-    <div class="qualification-header">
-      <div class="degree">Master in Library and Information Science (M.LISc.)</div>
-      <div class="year">2012 – 2013</div>
-    </div>
-    <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
-  </div>
+  <div class="timeline">
 
-  <div class="qualification">
-    <div class="qualification-header">
-      <div class="degree">Bachelor in Library and Information Science (B.LISc.)</div>
-      <div class="year">2011 – 2012</div>
+    <div class="timeline-item">
+      <div class="timeline-date">2018, 2019</div>
+      <div class="timeline-content">
+        <div class="degree">UGC - NET</div>
+        <div class="institute">University Grants Commission of India</div>
+        <div class="grade">Qualified for Assistant Professor / Assistant Librarian</div>
+      </div>
     </div>
-    <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
-  </div>
 
-  <div class="qualification">
-    <div class="qualification-header">
-      <div class="degree">Bachelor in Commerce (B.Com)</div>
-      <div class="year">2008 – 2011</div>
+    <div class="timeline-item">
+      <div class="timeline-date">2012 – 2013</div>
+      <div class="timeline-content">
+        <div class="degree">Master in Library and Information Science (M.LISc.)</div>
+        <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+      </div>
     </div>
-    <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
-  </div>
 
-  <div class="qualification">
-    <div class="qualification-header">
-      <div class="degree">Higher Secondary School Certificate</div>
-      <div class="year">March 2008</div>
+    <div class="timeline-item">
+      <div class="timeline-date">2011 – 2012</div>
+      <div class="timeline-content">
+        <div class="degree">Bachelor in Library and Information Science (B.LISc.)</div>
+        <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+      </div>
     </div>
-    <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
-  </div>
 
-  <div class="qualification">
-    <div class="qualification-header">
-      <div class="degree">Secondary School Certificate</div>
-      <div class="year">March 2006</div>
+    <div class="timeline-item">
+      <div class="timeline-date">2008 – 2011</div>
+      <div class="timeline-content">
+        <div class="degree">Bachelor in Commerce (B.Com)</div>
+        <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
+      </div>
     </div>
-    <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">March 2008</div>
+      <div class="timeline-content">
+        <div class="degree">Higher Secondary School Certificate</div>
+        <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">March 2006</div>
+      <div class="timeline-content">
+        <div class="degree">Secondary School Certificate</div>
+        <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+      </div>
+    </div>
+
   </div>
 
 </body>
 </html>
-
