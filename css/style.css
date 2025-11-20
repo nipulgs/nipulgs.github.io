@@ -167,8 +167,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-  background-color: #f8f8f8; /* optional background */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+/*  background-color: #f8f8f8; /* optional background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
 }
 
 .header-left a,
