@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Professional - Participation</title>
+
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #2c3e50;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* FILTER BAR */
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.filters select {
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  min-width: 160px;
+}
+
+/* EVENT LIST */
+ul.events-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul.events-list li {
+  background: #fff;
+  margin-bottom: 18px;
+  border-left: 6px solid #005a87;
+  padding: 16px 22px;
+  border-radius: 8px;
+  box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
+  transition: box-shadow 0.3s ease, border-left-color 0.3s ease;
+}
+
+ul.events-list li:hover {
+  box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+  border-left-color: #0091ff;
+}
+
+.year {
+  display: inline-block;
+  font-weight: 700;
+  color: #005a87;
+  font-size: 1.2rem;
+  width: 70px;
+}
+
+.event-type {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.Webinar { background: #d35400; }
+.Workshop { background: #2980b9; }
+.Training { background: #8e44ad; }
+.Seminar { background: #c0392b; }
+.Conference { background: #007b5e; }
+
+.Role {
+  font-weight: 600;
+  color: #555;
+  font-style: italic;
+}
+
+.event-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.organizer {
+  font-style: italic;
+  color: #666;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .filters select {
+    width: 100%;
+  }
+  .year {
+    display: block;
+    width: auto;
+    margin-bottom: 6px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<h1>Professional - Activities</h1>
+
+<!-- FILTERS -->
+<div class="filters">
+  <select id="yearFilter">
+    <option value="">All Years</option>
+  </select>
+  <select id="typeFilter">
+    <option value="">All Event Types</option>
+  </select>
+  <select id="roleFilter">
+    <option value="">All Roles</option>
+  </select>
+</div>
+
+<ul class="events-list">
+
+  <!-- ===== 2025 ===== -->
+  <li>
+    <span class="year">2025</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">AI-Powered Search in Libraries: Understanding the Fundamentals for Library Professionals</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">Indian Institute of Technology Gandhinagar</span>.
+    <div class="description">
+      Workshops held on September 24, 2025; part of CLSTL 2025 on the theme
+      “Enhancing Library Experiences with Artificial Intelligence (AI)” (25–27 Sept 2025).
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2025</span>
+    <span class="event-type Training">Conference</span>
+    <span class="event-name">Changing Landscape of Science and Technology Libraries</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">Indian Institute of Technology Gandhinagar</span>.
+    <div class="description">
+      Conference theme: “Enhancing Library Experiences with Artificial Intelligence (AI)”, held during September 25–27, 2025.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2025</span>
+    <span class="event-type Seminar">Seminar</span>
+    <span class="event-name">Libraries and Digital Disruption: Navigating Change, Sustaining Relevance</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">Indian Institute of Management Kozhikode</span>.
+    <div class="description">
+      Online seminar held on 14 August 2025 focusing on digital disruption in libraries.
+    </div>
+  </li>
+
+  <!-- ===== 2024 ===== -->
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Webinar">Webinar</span>
+    <span class="event-name">Unlocking the Secrets of Research: Reproducibility and Data Management</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">Special Library Association (SLA)</span>.
+    <div class="description">
+      Covered research ethics, reproducibility standards, and effective data handling.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Webinar">Webinar</span>
+    <span class="event-name">Unleashing the Potential of Open Research Data Management</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Held on 22 March 2024; focused on principles and best practices for open research data management.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Webinar">Webinar</span>
+    <span class="event-name">Mastering Data Management Plans: Ensuring Accessibility, Reusability, and Data Persistence</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Held on 23 October 2024; covered essential components of Data Management Plans (DMPs).
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Webinar">Webinar</span>
+    <span class="event-name">Enhancing Research with Open Data: Significance of Data Citation, Metadata Standards, and Data Management Plans</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Held on 14 November 2024; focused on open data practices and metadata standards.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Training">Training</span>
+    <span class="event-name">Training Session – Procurement of Goods and Services on GeM Portal</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">IIT Indore</span>.
+    <div class="description">
+      Session on government procurement processes and compliance under the GeM platform.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">Summer School on Building Next-Gen Digital Repositories (DSpace)</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">IIT Delhi</span>.
+    <div class="description">
+      Advanced hands-on training in DSpace (05–09 August 2024).
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2024</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">Awareness Programme on ORCID and INFLIBNET Services</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">DAVV Indore & INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Awareness programme on researcher identifiers and INFLIBNET services.
+    </div>
+  </li>
+
+  <!-- ===== 2023 ===== -->
+  <li>
+    <span class="year">2023</span>
+    <span class="event-type Training">Training</span>
+    <span class="event-name">FLY Training Program</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">IIT Indore</span>.
+    <div class="description">
+      CMI (USA) faculty-leadership programme held from 02–05 December 2023.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2023</span>
+    <span class="event-type Training">Training</span>
+    <span class="event-name">Knimbus Admin Training</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">IIT Indore</span>.
+    <div class="description">
+      Administrator-level training workshop on Knimbus.
+    </div>
+  </li>
+
+  <!-- ===== 2022 ===== -->
+  <li>
+    <span class="year">2022</span>
+    <span class="event-type Webinar">Webinar</span>
+    <span class="event-name">LIB-TAN Monthly Talk Series – 2</span>
+    <span class="Role">(Resource Person)</span>.
+    <div class="description">
+      Webinar delivered as Library Trainee Alumni, IIT Gandhinagar.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2022</span>
+    <span class="event-type Training">Training</span>
+    <span class="event-name">In-house Training for RFID System</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">IIT Indore</span>.
+    <div class="description">
+      Bibliotheca RFID system operations training.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2022</span>
+    <span class="event-type Training">Training</span>
+    <span class="event-name">Training of Officials of Autonomous Bodies, Institutions, etc.</span>
+    <span class="Role">(Participant)</span>.
+    <div class="description">
+      Government e-Marketplace (GeM) portal training.
+    </div>
+  </li>
+
+  <!-- ===== 2019 ===== -->
+  <li>
+    <span class="year">2019</span>
+    <span class="event-type Training">Conference</span>
+    <span class="event-name">CLSTL 2019 – International Conference on Changing Landscape of Science & Technology Libraries</span>
+    <span class="Role">(Participant)</span>.
+    <div class="description">
+      International conference at IIT Gandhinagar on innovation and collaboration in libraries.
+    </div>
+  </li>
+
+  <!-- ===== 2018 ===== -->
+  <li>
+    <span class="year">2018</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">KOHA: Installation and Operations</span>
+    <span class="Role">(Technical Resource Person)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Conducted hands-on training on KOHA installation and workflows.
+    </div>
+  </li>
+
+  <!-- ===== 2017 ===== -->
+  <li>
+    <span class="year">2017</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">SOUL 2.0 Advance Training Program</span>
+    <span class="Role">(Technical Resource Person)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Resource person for SOUL 2.0 software training programmes.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2017</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">E-Resource Management – CORAL ERMS Software</span>
+    <span class="Role">(Technical Resource Person)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Technical training on CORAL ERMS software.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2017</span>
+    <span class="event-type Training">Training</span>
+    <span class="event-name">PDP: Design and Development of Institutional Repository Using DSpace</span>
+    <span class="Role">(Resource Person)</span> at
+    <span class="organizer">UGC-HRDC, Sardar Patel University, Vallabh Vidyanagar</span>.
+    <div class="description">
+      Professional-development programme on DSpace-based repositories.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2017</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">Five-Day National Workshop on Capacity Building Program on ICT for LIS (Hindi)</span>
+    <span class="Role">(Technical Resource Person)</span> at
+    <span class="organizer">INFLIBNET Centre, Gandhinagar</span>.
+    <div class="description">
+      Hands-on ICT tools training for LIS professionals.
+    </div>
+  </li>
+
+  <li>
+    <span class="year">2017</span>
+    <span class="event-type Seminar">Seminar</span>
+    <span class="event-name">Re-imagining Today’s Librarianship</span>
+    <span class="Role">(Organizing Committee Member)</span> at
+    <span class="organizer">ADINET & Adani Institute of Infrastructure, Ahmedabad</span>.
+    <div class="description">
+      Seminar focused on modern librarianship practices.
+    </div>
+  </li>
+
+  <!-- ===== 2016 ===== -->
+  <li>
+    <span class="year">2016</span>
+    <span class="event-type Workshop">Workshop</span>
+    <span class="event-name">Two-day Workshop on Developing Institutional Repository Using DSpace</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">NIFT Bhubaneswar</span>.
+    <div class="description">
+      Hands-on DSpace institutional repository training.
+    </div>
+  </li>
+
+  <!-- ===== 2015 ===== -->
+  <li>
+    <span class="year">2015</span>
+    <span class="event-type Seminar">Seminar</span>
+    <span class="event-name">Librarian’s Development Programme (LDP)</span>
+    <span class="Role">(Participant)</span> at
+    <span class="organizer">KIIT University, Bhubaneswar</span>.
+    <div class="description">
+      LIS professional development programme.
+    </div>
+  </li>
+
+</ul>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const list = document.querySelector(".events-list");
+  const items = Array.from(list.querySelectorAll("li"));
+
+  /* SORT BY YEAR (LATEST FIRST) */
+  items.sort((a, b) =>
+    parseInt(b.querySelector(".year").innerText) -
+    parseInt(a.querySelector(".year").innerText)
+  );
+  items.forEach(item => list.appendChild(item));
+
+  const yearFilter = document.getElementById("yearFilter");
+  const typeFilter = document.getElementById("typeFilter");
+  const roleFilter = document.getElementById("roleFilter");
+
+  const years = new Set();
+  const types = new Set();
+  const roles = new Set();
+
+  items.forEach(item => {
+    years.add(item.querySelector(".year").innerText.trim());
+
+    const typeEl = item.querySelector(".event-type");
+    const typeValue = typeEl.dataset.type || typeEl.textContent.trim();
+    types.add(typeValue);
+
+    roles.add(
+      item.querySelector(".Role")
+        .textContent.replace(/[()]/g, "")
+        .trim()
+    );
+  });
+
+  [...years].sort((a,b)=>b-a).forEach(v => yearFilter.add(new Option(v, v)));
+  [...types].sort().forEach(v => typeFilter.add(new Option(v, v)));
+  [...roles].sort().forEach(v => roleFilter.add(new Option(v, v)));
+
+  function applyFilters() {
+    items.forEach(item => {
+      const y = item.querySelector(".year").innerText.trim();
+
+      const typeEl = item.querySelector(".event-type");
+      const t = typeEl.dataset.type || typeEl.textContent.trim();
+
+      const r = item.querySelector(".Role")
+        .textContent.replace(/[()]/g, "")
+        .trim();
+
+      item.style.display =
+        (!yearFilter.value || yearFilter.value === y) &&
+        (!typeFilter.value || typeFilter.value === t) &&
+        (!roleFilter.value || roleFilter.value === r)
+          ? ""
+          : "none";
+    });
+  }
+
+  yearFilter.addEventListener("change", applyFilters);
+  typeFilter.addEventListener("change", applyFilters);
+  roleFilter.addEventListener("change", applyFilters);
+});
+</script>
+
+</body>
+</html>
