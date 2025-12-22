@@ -99,26 +99,68 @@
       font-style: italic;
     }
 
-    @media (max-width: 768px) {
-      .qualification {
-        flex-direction: column;
-        text-align: left;
-      }
-      .left, .right {
-        width: 100%;
-        text-align: left;
-        padding: 0;
-      }
-      .dot {
-        left: 0;
-        transform: none;
-        margin-left: -10px;
-      }
-      .timeline::before {
-        left: 0;
-        transform: none;
-      }
-    }
+    
+@media (max-width: 768px) {
+
+  body {
+    margin: 12px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  #total-experience {
+    font-size: 0.95rem;
+  }
+
+  .timeline::before {
+    left: 50%;
+  }
+
+  .experience {
+    margin-bottom: 30px;
+  }
+
+  .left,
+  .right {
+    width: 46%;
+  }
+
+  .left {
+    padding-right: 10px;
+  }
+
+  .right {
+    padding-left: 10px;
+  }
+
+  .dot {
+    width: 14px;
+    height: 14px;
+    top: 6px;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+
+  .institution {
+    font-size: 0.9rem;
+  }
+
+  .duration {
+    font-size: 0.85rem;
+  }
+
+  .time-length {
+    font-size: 0.8rem;
+  }
+}
+
+    
   </style>
 </head>
 <body>
