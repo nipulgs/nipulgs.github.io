@@ -1,232 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Qualification Timeline</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 20px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 16px;
-      background: #fff;
-      color: #2c3e50;
-      line-height: 1.6;
-    }
+<meta charset="UTF-8">
+<title>Qualification Timeline</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    h1 {
-      font-weight: 700;
-      margin-bottom: 30px;
-      font-size: 2rem;
-    }
+<style>
+body {
+  margin: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #2c3e50;
+  background: #fff;
+  line-height: 1.6;
+}
 
-    /* Timeline container */
-    .timeline {
-      position: relative;
-      margin: 0;
-      padding: 0;
-    }
+h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
 
-    /* Timeline line */
-    .timeline::before {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: 0;
-      bottom: 0;
-      width: 3px;
-      background: #2980b9;
-      transform: translateX(-50%);
-    }
+/* ===== TIMELINE WRAPPER ===== */
 
-    /* Timeline item */
-    .qualification {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 40px;
-    }
+.timeline {
+  position: relative;
+  max-width: 100%;
+}
 
-    /* Left side (year/period) */
-    .left {
-      width: 45%;
-      text-align: right;
-      padding-right: 20px;
-    }
+/* Vertical line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 220px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #005a87;
+}
 
-    .year {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: #2980b9;
-    }
+/* Each qualification row */
+.qualification {
+  position: relative;
+  display: grid;
+  grid-template-columns: 200px 40px 1fr;
+  margin-bottom: 32px;
+}
 
-    /* Middle dot */
-    .dot {
-      position: absolute;
-      left: 50%;
-      top: 8px;
-      transform: translateX(-50%);
-      width: 16px;
-      height: 16px;
-      border-radius: 50%;
-      background: #2980b9;
-      border: 2px solid #fff;
-      box-shadow: 0 0 0 2px #2980b9;
-    }
+/* LEFT: Year */
+.left {
+  text-align: right;
+  padding-right: 12px;
+}
 
-    /* Right side (qualification info) */
-    .right {
-      width: 45%;
-      padding-left: 20px;
-    }
+.year {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #005a87;
+}
 
-    .degree {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #222;
-    }
+/* MIDDLE DOT */
+.dot {
+  position: relative;
+}
 
-    .institute {
-      font-size: 0.95rem;
-      color: #555;
-      margin-top: 2px;
-    }
+.dot::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 6px;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #005a87;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #005a87;
+}
 
-    .grade {
-      margin-top: 4px;
-      font-size: 0.9rem;
-      color: #444;
-      font-style: italic;
-    }
+/* RIGHT: Content */
+.right {
+  padding-left: 16px;
+}
 
-    
+.degree {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.institute {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ===== MOBILE ===== */
+
 @media (max-width: 768px) {
 
   body {
-    margin: 12px;
     font-size: 14px;
+    margin: 12px;
   }
 
   h1 {
     font-size: 1.5rem;
-    margin-bottom: 20px;
-  }
-
-  #total-experience {
-    font-size: 0.95rem;
   }
 
   .timeline::before {
-    left: 50%;
+    left: 140px;
   }
 
-  .experience {
-    margin-bottom: 30px;
-  }
-
-  .left,
-  .right {
-    width: 46%;
+  .qualification {
+    grid-template-columns: 120px 32px 1fr;
+    margin-bottom: 26px;
   }
 
   .left {
-    padding-right: 10px;
+    padding-right: 8px;
   }
 
-  .right {
-    padding-left: 10px;
-  }
-
-  .dot {
-    width: 14px;
-    height: 14px;
-    top: 6px;
-  }
-
-  .position {
+  .degree {
     font-size: 1rem;
   }
 
-  .institution {
+  .institute {
     font-size: 0.9rem;
   }
 
-  .duration {
-    font-size: 0.85rem;
-  }
-
-  .time-length {
-    font-size: 0.8rem;
+  .dot::before {
+    width: 12px;
+    height: 12px;
   }
 }
-
-    
-  </style>
+</style>
 </head>
+
 <body>
 
-  <h1>Qualification</h1>
+<h1>Qualification</h1>
 
-  <div class="timeline">
+<br>
 
-    <div class="qualification">
-      <div class="left">
-        <div class="year">2018, 2019</div>
-      </div>
-      <div class="dot"></div>
-      <div class="right">
-        <div class="degree">UGC - NET</div>
-        <div class="institute">University Grants Commission of India</div>
-        <div class="grade">Qualified for Assistant Professor / Assistant Librarian</div>
-      </div>
-    </div>
+<div class="timeline">
 
     <div class="qualification">
-      <div class="left">
-        <div class="year">2011 – 2013</div>
-      </div>
-      <div class="dot"></div>
-      <div class="right">
-        <div class="degree">Master in Library and Information Science (M.LISc.)</div>
-        <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
-      </div>
+    <div class="left">
+      <div class="year">Twice - 2018, 2019</div>
     </div>
-
-    <div class="qualification">
-      <div class="left">
-        <div class="year">2008 – 2011</div>
-      </div>
-      <div class="dot"></div>
-      <div class="right">
-        <div class="degree">Bachelor in Commerce (B.Com)</div>
-        <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
-      </div>
+    <div class="dot"></div>
+    <div class="right">
+      <div class="degree">UGC - NET</div>
+      <div class="institute">Library and Information Science</div>
+      <div class="institute">University Grants Commission, India</div>
     </div>
-
-    <div class="qualification">
-      <div class="left">
-        <div class="year">March 2008</div>
-      </div>
-      <div class="dot"></div>
-      <div class="right">
-        <div class="degree">Higher Secondary School Certificate</div>
-        <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
-      </div>
-    </div>
-
-    <div class="qualification">
-      <div class="left">
-        <div class="year">March 2006</div>
-      </div>
-      <div class="dot"></div>
-      <div class="right">
-        <div class="degree">Secondary School Certificate</div>
-        <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
-      </div>
-    </div>
-
   </div>
+
+  <div class="qualification">
+    <div class="left">
+      <div class="year">2011 – 2013</div>
+    </div>
+    <div class="dot"></div>
+    <div class="right">
+      <div class="degree">M.LISc - Master in Library and Information Science</div>
+      <div class="institute">Department of Library and Information Science</div>
+      <div class="institute">Sardar Patel University, Vallabh Vidyanagar, Gujarat</div>
+    </div>
+  </div>
+
+  <div class="qualification">
+    <div class="left">
+      <div class="year">2008 – 2011</div>
+    </div>
+    <div class="dot"></div>
+    <div class="right">
+      <div class="degree">B.Com - Bachelor in Commerce</div>
+      <div class="institute">P.K.M. College of Technology, Junagadh, Gujarat</div>
+      <div class="institute">Saurashtra University, Rajkot, Gujarat</div>
+    </div>
+  </div>
+
+  <div class="qualification">
+    <div class="left">
+      <div class="year">March 2008</div>
+    </div>
+    <div class="dot"></div>
+    <div class="right">
+      <div class="degree">HSC - Higher Secondary School Certificate</div>
+      <div class="institute">Apoorva School, Dhoraji</div>
+      <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+    </div>
+  </div>
+
+  <div class="qualification">
+    <div class="left">
+      <div class="year">March 2006</div>
+    </div>
+    <div class="dot"></div>
+    <div class="right">
+      <div class="degree">SSC - Secondary School Certificate</div>
+      <div class="institute">Apoorva School, Dhoraji</div>
+      <div class="institute">GSHSEB, Gandhinagar, Gujarat</div>
+    </div>
+  </div>
+
+    <div class="qualification">
+    <div class="left">
+      <div class="year">2002 - 2003</div>
+    </div>
+    <div class="dot"></div>
+    <div class="right">
+      <div class="degree">Primary School Education</div>
+      <div class="institute">Tehsil Goverment School Number - 14, Dhoraji, Gujarat</div>
+    </div>
+  </div>
+
+</div>
 
 </body>
 </html>
-
