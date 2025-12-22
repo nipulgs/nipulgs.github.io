@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IT Implementations & Customizations - IIT Indore</title>
+
   <style>
     body {
       margin: 20px;
@@ -15,37 +16,47 @@
     }
 
     h1 {
-      text-align: left;
       font-weight: 700;
       margin-bottom: 10px;
-      font-size: 2.0rem;
-    }
-
-    p.header-subtitle {
-      margin-bottom: 35px;
-      font-size: 1rem;
-      color: #555;
+      font-size: 2rem;
     }
 
     .container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 20px;
+      gap: 22px;
     }
 
     .card {
       background: #fff;
       border-left: 6px solid #005a87;
-      border-radius: 8px;
+      border-radius: 10px;
       box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
-      transition: box-shadow 0.3s ease, border-left-color 0.3s ease, transform 0.3s ease;
-      padding: 20px;
+      transition: all 0.3s ease;
+      overflow: hidden;
     }
 
     .card:hover {
-      box-shadow: 0 6px 20px rgb(0 90 135 / 0.35);
+      box-shadow: 0 8px 24px rgb(0 90 135 / 0.35);
       border-left-color: #0091ff;
       transform: translateY(-4px);
+    }
+
+    /* IMAGE SECTION */
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    .card-content {
+      padding: 20px;
     }
 
     .card-content h2 {
@@ -58,12 +69,12 @@
     .card-content p {
       font-size: 0.95rem;
       color: #444;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
 
     .card-content a {
       display: inline-block;
-      padding: 6px 14px;
+      padding: 7px 16px;
       background: #005a87;
       color: #fff;
       font-size: 0.9rem;
@@ -78,65 +89,74 @@
     }
   </style>
 </head>
+
 <body>
-  <h1>IT Implementations & Customizations</h1>
-  <p class="header-subtitle"></p>
-  <div class="container">
 
-    <!-- Koha OPAC -->
-    <div class="card">
-      <div class="card-content">
-        <h2>Library Management System (Koha)</h2>
-        <p>The Online Public Access Catalogue (OPAC) for IIT Indore library holdings, supporting advanced search, circulation services, and user accounts.</p>
-        <a href="https://koha.iiti.ac.in/" target="_blank">Visit Site</a>
-      </div>
-    </div>
+<h1>IT Implementations & Customizations</h1>
 
-    <!-- DSpace Repository -->
-    <div class="card">
-      <div class="card-content">
-        <h2>Institutional Repository (DSpace)</h2>
-        <p>The Institutional Digital Repository hosts theses, reports, publications, and other scholarly outputs of IIT Indore researchers and faculty.</p>
-        <a href="https://dspace.iiti.ac.in/" target="_blank">Visit Site</a>
-      </div>
-    </div>
+<div class="container">
 
-
-    <!-- Document Delivery Service -->
-    <div class="card">
-      <div class="card-content">
-        <h2>Document Delivery Service (DDS)</h2>
-        <p>Helps faculty, researchers, and students request and access articles, reports, and other scholarly materials not directly available.</p>
-        <a href="https://libdds.iiti.ac.in/" target="_blank">Visit Site</a>
-      </div>
+  <!-- Koha OPAC -->
+  <div class="card">
+    <img src="images/page_koha.jpg" alt="Koha OPAC IIT Indore">
+    <div class="card-content">
+      <h2>Library Management System (Koha)</h2>
+      <p>Online Public Access Catalogue (OPAC) supporting advanced search, circulation services, and user accounts.</p>
+      <a href="https://koha.iiti.ac.in/" target="_blank">Visit Site</a>
     </div>
-
-    <!-- Library Website -->
-    <div class="card">
-      <div class="card-content">
-        <h2>Library Website (CMS)</h2>
-        <p>Official Learning Resource Center (LRC) website providing access to e-resources, databases, institutional repository, and research support services.</p>
-        <a href="https://library.iiti.ac.in/" target="_blank">Visit Site</a>
-      </div>
-      
-    </div>
-    <!-- Library Website -->
-    <div class="card">
-      <div class="card-content">
-        <h2>A to Z Journal List</h2>
-        <p>The A to Z Journal Listing System is a web-based directory that enables users to easily find library journals—print, electronic, and open-access. It provides centralized, searchable access with options to browse alphabetically or filter by subject, publisher, platform, or subscription type.</p>
-        <a href="https://library.iiti.ac.in/A2Z/" target="_blank">Visit Site</a>
-      </div>
-    </div>
-    <!-- CORAL ERMS -->
-    <div class="card">
-      <div class="card-content">
-        <h2>e-Resouces Management System (CORAL)</h2>
-        <p>CORAL ERMS is an open-source, web-based Electronic Resource Management System designed to support libraries in efficiently managing e-resource lifecycles, including acquisitions, licensing, vendor relations, trials, and usage analytics.</p>
-        <a href="https://library.iiti.ac.in/A2Z/" target="_blank">Visit Site</a>
-      </div>
-    </div>
-    
   </div>
+
+  <!-- DSpace -->
+  <div class="card">
+    <img src="images/page_dspace.png" alt="DSpace IIT Indore">
+    <div class="card-content">
+      <h2>Institutional Repository (DSpace)</h2>
+      <p>Digital repository hosting theses, publications, reports, and scholarly outputs of IIT Indore.</p>
+      <a href="https://dspace.iiti.ac.in/" target="_blank">Visit Site</a>
+    </div>
+  </div>
+
+  <!-- DDS -->
+  <div class="card">
+    <img src="images/page_dds.png" alt="Document Delivery Service">
+    <div class="card-content">
+      <h2>Document Delivery Service (DDS)</h2>
+      <p>Facilitates access to articles and documents not directly available in the library collection.</p>
+      <a href="https://libdds.iiti.ac.in/" target="_blank">Visit Site</a>
+    </div>
+  </div>
+
+  <!-- Library Website -->
+  <div class="card">
+    <img src="images/page_library.png" alt="Library Website IIT Indore">
+    <div class="card-content">
+      <h2>Library Website (CMS)</h2>
+      <p>Official LRC website providing access to e-resources, databases, services, and research support.</p>
+      <a href="https://library.iiti.ac.in/" target="_blank">Visit Site</a>
+    </div>
+  </div>
+
+  <!-- A to Z -->
+  <div class="card">
+    <img src="images/page_a2z.jpg" alt="A to Z Journal List">
+    <div class="card-content">
+      <h2>A to Z Journal List</h2>
+      <p>Centralized searchable directory for print, electronic, and open-access journals with advanced filters.</p>
+      <a href="https://library.iiti.ac.in/A2Z/" target="_blank">Visit Site</a>
+    </div>
+  </div>
+
+  <!-- CORAL -->
+  <div class="card">
+    <img src="images/page_coral.jpg" alt="CORAL ERMS">
+    <div class="card-content">
+      <h2>e-Resources Management System (CORAL)</h2>
+      <p>Open-source ERMS supporting acquisitions, licensing, trials, vendors, and usage analytics.</p>
+      <a href="https://library.iiti.ac.in/A2Z/" target="_blank">Visit Site</a>
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>
