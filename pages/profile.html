@@ -42,20 +42,51 @@ h2 {
     }
     li {
       margin-bottom: 1rem;
-      line-height: 1.6;
+      line-height: 1.6rem;
     }
     i {
       color: #2980b9;
       margin-right: 0.6rem;
     }
-
   
+  .specialises-wrap {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.specialises-list {
+  flex: 1;
+}
+
+.specialises-image {
+  flex: 0 0 160px;
+  text-align: right;
+}
+
+.specialises-image img {
+  max-width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .specialises-wrap {
+    flex-direction: column;
+  }
+  .specialises-image {
+    text-align: left;
+  }
+}
+
+
   </style>
   </head>
 <body>
 
 <h1>Profile</h1>
-    <p>
+    <p style="line-height:2.0; margin-bottom:16px;">
       I am Nipul, a dedicated Library Information Assistant at the <em> Learning Resource Center, 
       Indian Institute of Technology Indore</em>. I contribute to managing the institute’s digital resources, 
       LRC-IT systems, and research support services, supporting academic and research excellence. 
@@ -63,21 +94,31 @@ h2 {
     </p>
 
   <h2>Specialises in:</h2>
-  <ul>
+
+<div class="specialises-wrap">
+
+  <!-- LEFT: LIST -->
+  <div class="specialises-list">
+    <ul>
       <li><i class="fa-solid fa-network-wired"></i>Library IT Infrastructure Management</li>
-      
       <li><i class="fa-solid fa-database"></i>Institutional Repository Development & Digital Archiving</li>
-      
       <li><i class="fa-solid fa-barcode"></i>RFID-Enabled Library Automation</li>
-      
       <li><i class="fa-solid fa-globe"></i>E-Resources Access Management & Technical Troubleshooting</li>
-      
       <li><i class="fa-solid fa-user-tie"></i>Research Visibility</li>
-      
       <li><i class="fa-solid fa-hands-helping"></i>Research Support Services</li>
-      
       <li><i class="fa-brands fa-wordpress"></i>Content Management</li>
     </ul>
+  </div>
+
+  <!-- RIGHT: LOGO / PHOTO -->
+  <div class="specialises-image">
+    <img src="images/nipulgs.png" alt="Library Technology">
+    <!-- or use your photo: images/nipul.jpg -->
+  </div>
+
+</div>
+
+
 <br>
   <blockquote>
     Passionate about merging technology with academic services to improve access, efficiency, and research impact.
