@@ -24,9 +24,7 @@ header {
   margin-left: 10px;
   font-size: 18px;
 }
-.iiti-logo {
-  height: 50px;
-}
+
 .container {
   display: flex;
   flex: 1;
@@ -91,6 +89,11 @@ footer {
 .iiti-logo {
   height: 60px;
   margin-right: 10px;
+}
+
+.india-logo {
+  height: 40px;
+  margin-right: 5px;
 }
 
 .inst-name {
