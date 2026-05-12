@@ -36,18 +36,14 @@ Library and Information Science professional with over a decade of experience ac
 **Designation:** Library Information Assistant  
 **Key Responsibilities:**
 - Maintain LRC IT infrastructure, DSpace, Koha, Library Website, and LibDDS Portal
-- Manage e-resources, access authentication (eSS, ONOS), and vendor liaison
-- Administer RFID system and remote access via Knimbus
-- Manage IRINS and faculty publication reports
-- Handling Document Delivery Service (DDS) requests annually
-- Contribute to the institutional repository, workshops, and user training
-- Support Library Committee, Staff Welfare website, and campus events
+- Manage e-resources, access authentication, and vendor liaison
+
 
 ### INFLIBNET Centre, Gandhinagar (Sep 2016 – May 2021)  
 **Designation:** Project Officer (eSS), Project Associate (eSS) 
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
-- Maintained CORAL ERM and university directory
+- Maintained CORAL - ERM system and university directory
 - Provided training on SOUL, Koha, CORAL, DSpace
 - Involved in data verification for NIRF and Shodhganga
 
@@ -77,19 +73,11 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-## Notable Projects
-- A to Z Journal Listing System (PHP/MySQL)
-- Proposed Internal File Tracking System
-- Internal File Management System
-- Servers for Koha & DSpace
-- Wordpress-based Library Website Redevelopment
-- Implemented ILL/DDS System using Open Access Software
-
----
-
-## Training & Workshops Attended
-- Summer School on DSpace, IIT Delhi (Aug 2024)
-- Author Workshops by Oxford & IOP Publishing
+## Seminar, Webinar, Training & Workshops Attended
+- Librarian Colloquium: L³ Webinar Series (Season 1), HDFC Library, Ashoka University (2026)
+- Conference CLSTL 2025, IIT Gandhinagar (2025)
+- Summer School on DSpace, IIT Delhi (2024)
+- Author Workshops by Publishers
 - Research Data Management & Open Access (SLA, ORCID, FAIR)
 - Turnitin Training, CMIE Prowess, MLA Bibliography
 - GeM Portal Procurement Training
@@ -107,9 +95,12 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-## Contributions as Resource Person
-- National workshops on DSpace, KOHA, e-Resource Management at INFLIBNET
-- SOUL 2.0 and ICT workshops for LIS professionals
+## Contributions as Resource Person, Technical Resource Person
+- LIB-TAN Monthly Talk Series – 2 (Resource Person) Webinar delivered as Library Trainee Alumni, IIT Gandhinagar.
+- PDP: Design and Development of Institutional Repository Using DSpace (Resource Person) at UGC-HRDC, Sardar Patel University, Vallabh Vidyanagar.
+- National workshops on DSpace, KOHA, e-Resource Management at INFLIBNET Centre, Gandhinagar
+- SOUL 2.0 and ICT workshops for LIS professionals at INFLIBNET Centre, Gandhinagar
+
 
 ---
 
