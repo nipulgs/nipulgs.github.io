@@ -39,8 +39,8 @@ Library and Information Science professional with over a decade of experience ac
 - Manage e-resources, access authentication (eSS, ONOS), and vendor liaison
 - Administer RFID system and remote access via Knimbus
 - Manage IRINS and faculty publication reports
-- Handle over 1,500 Document Delivery Service (DDS) requests annually
-- Contribute to institutional repository, workshops, and user training
+- Handling Document Delivery Service (DDS) requests annually
+- Contribute to the institutional repository, workshops, and user training
 - Support Library Committee, Staff Welfare website, and campus events
 
 ### INFLIBNET Centre, Gandhinagar (Sep 2016 – May 2021)  
