@@ -44,7 +44,7 @@ Library and Information Science professional with over a decade of experience ac
 - Support Library Committee, Staff Welfare website, and campus events
 
 ### INFLIBNET Centre, Gandhinagar (Sep 2016 – May 2021)  
-**Designation:** Project Officer (eSS)  
+**Designation:** Project Officer (eSS), Project Associate (eSS) 
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
 - Maintained CORAL ERM and university directory
