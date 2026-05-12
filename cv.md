@@ -1,13 +1,10 @@
-
-# Curriculum Vitae
-
 ## Personal Details
 **Name:** Mr. Nipul Gordhanbhai Shihora  
 **Date of Birth:** October 8, 1989  
 **Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
 **Phone:** +91-97229-54642  
 **ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
-**Languages Known:** English, Hindi, Gujarati  
+**Languages Known:** Gujarati, Hindi, English.
 
 ---
 
@@ -20,8 +17,8 @@ Library and Information Science professional with over a decade of experience ac
 
 | Degree | Institution | Year | Grade |
 |--------|-------------|------|-------|
-| M.LISc | Sardar Patel University | 2013 | First Class (CGPA: 7.16) |
-| B.LISc | Sardar Patel University | 2012 | First Class (CGPA: 6.93) |
+| M.LISc | Sardar Patel University | 2013 | First Class |
+| B.LISc | Sardar Patel University | 2012 | First Class |
 | B.Com | Saurashtra University | 2011 | Second Class |
 | HSC | GSHSEB Gandhinagar | 2008 | Second Class |
 | SSC | GSHSEB Gandhinagar | 2006 | Second Class |
@@ -54,30 +51,39 @@ Library and Information Science professional with over a decade of experience ac
 - Provided training on SOUL, Koha, CORAL, DSpace
 - Involved in data verification for NIRF and Shodhganga
 
-### IIT Bhubaneswar & IIT Gandhinagar (2013 – 2016)  
-**Designation:** Library Trainee / Professional Trainee  
+### IIT Bhubaneswar (2014 – 2016)  
+**Designation:** Library Professional Trainee  
 **Roles Included:**
-- Book acquisition, technical processing (DDC, MARC-21)
+- Book acquisition, Cataloguing, and Classification.
 - RFID-based circulation and e-resource usage analysis
-- Content management of library portals and user support
+- Provided ILL/DDS Service and user support
+- Managed Library Automation, Institutional Digital Repository, Library Portal, etc.
+
+### IIT Gandhinagar (2013 – 2014)  
+**Designation:** Library Trainee 
+**Roles Included:**
+- Book acquisition, collection development, self-rectification, book shelving, etc.
+- All library professional work.
 
 ---
 
 ## Technical Skills
-- **Library Systems:** Koha, SOUL, LibSys, CORAL, DSpace  
-- **Web Tools:** WordPress, Drupal  
-- **Operating Systems:** Windows, Linux  
-- **Office Applications:** MS Office, G-Suite, LibreOffice  
-- **Digital Tools:** Turnitin, IRINS, Knimbus  
-- **Data & APIs:** Usage statistics, cost per use, metadata harvesting
+- **Library Systems:** Koha, SOUL, LibSys, CORAL, DSpace, SubjectPlus, VuFind, etc. 
+- **Web Tools:** WordPress, Drupal, and GitHub. 
+- **Operating Systems:** Windows and Linux. 
+- **Office Applications:** MS Office, G-Suite, and LibreOffice. 
+- **Digital Tools:** Research support and research visibility tools.
+- **Data & APIs:** Usage statistics, cost per use, metadata harvesting, R programming, etc.
 
 ---
 
 ## Notable Projects
 - A to Z Journal Listing System (PHP/MySQL)
-- Internal File Management System for Purchase Orders
-- Demo Servers for Koha & DSpace
-- Drupal-based Library Website Redevelopment
+- Proposed Internal File Tracking System
+- Internal File Management System
+- Servers for Koha & DSpace
+- Wordpress-based Library Website Redevelopment
+- Implemented ILL/DDS System using Open Access Software
 
 ---
 
