@@ -51,7 +51,7 @@ Library and Information Science professional with over a decade of experience ac
 - Provided training on SOUL, Koha, CORAL, DSpace
 - Involved in data verification for NIRF and Shodhganga
 
-### IIT Bhubaneswar (2014 – 2016)  
+### IIT Bhubaneswar (Dec 2014 – Aug 2016)  
 **Designation:** Library Professional Trainee  
 **Roles Included:**
 - Book acquisition, Cataloguing, and Classification.
@@ -59,7 +59,7 @@ Library and Information Science professional with over a decade of experience ac
 - Provided ILL/DDS Service and user support
 - Managed Library Automation, Institutional Digital Repository, Library Portal, etc.
 
-### IIT Gandhinagar (2013 – 2014)  
+### IIT Gandhinagar (Jul 2013 – Jul 2014)  
 **Designation:** Library Trainee 
 **Roles Included:**
 - Book acquisition, collection development, self-rectification, book shelving, etc.
