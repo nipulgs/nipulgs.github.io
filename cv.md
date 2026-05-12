@@ -96,9 +96,14 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-## Memberships
-- **Indian Library Association (ILA)** – Lifetime Member (WL-12280)
-- **ADINET (Ahmedabad Library Network)** – Lifetime Member
+## Memberships of Professional Bodies
+### Lifetime Member
+- FoSTEML – Federation of Science, Technology, Engineering & Management Libraries, India (Member since: 2026)
+- SALIS – Society for the Advancement of Library and Information Science (Member since: 2025)
+- CGLA – Central Government Library Association India (Member since: 2025)
+- IATLIS – Indian Association of Teachers of Library and Information Science (Member since: 2024)
+- ADINET – Advance Information Network of Libraries in Gujarat (Member since: 2016)
+- ILA – Indian Library Association India (Member since: 2015)
 
 ---
 
