@@ -41,8 +41,7 @@ Library and Information Science professional with over a decade of experience ac
 ### Indian Institute of Technology Indore
 **Designation:** Library Information Assistant
 
-**Duration:**  
-<span class="exp-duration"
+**Duration:** <span class="exp-duration"
       data-start="2021-06-01"
       data-end="present">
 </span>
@@ -55,8 +54,7 @@ Library and Information Science professional with over a decade of experience ac
 ### INFLIBNET Centre, Gandhinagar
 **Designation:** Project Officer (eSS), Project Associate (eSS)
 
-**Duration:**  
-<span class="exp-duration"
+**Duration:** <span class="exp-duration"
       data-start="2016-09-01"
       data-end="2021-05-31">
 </span>
@@ -70,8 +68,7 @@ Library and Information Science professional with over a decade of experience ac
 ### IIT Bhubaneswar  
 **Designation:** Library Professional Trainee
 
-**Duration:**  
-<span class="exp-duration"
+**Duration:** <span class="exp-duration"
       data-start="2014-12-01"
       data-end="2016-08-31">
 </span>
@@ -85,8 +82,7 @@ Library and Information Science professional with over a decade of experience ac
 ### IIT Gandhinagar
 **Designation:** Library Trainee
 
-**Duration:**  
-<span class="exp-duration"
+**Duration:** <span class="exp-duration"
       data-start="2013-07-01"
       data-end="2014-07-31">
 </span>
