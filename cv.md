@@ -2,12 +2,13 @@
 title: "Curriculum Vitae"
 ---
 
-**Library Information Assistant | Learning Resource Center**
-**Indian Institute of Technology Indore**
-**Email** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
-**Phone** +91-731-660-3566  
-**ORCID** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
-**Languages** Gujarati, Hindi, English  
+**Library Information Assistant | Learning Resource Center**  
+**Indian Institute of Technology Indore**  
+**Email**: [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
+**Phone**: +91-731-660-3566  
+**ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
+**Profile**: [nipulgs.github.io](https://nipulgs.github.io)
+**Languages**: Gujarati, Hindi, English  
 
 ---
 
