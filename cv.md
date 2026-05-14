@@ -11,8 +11,9 @@ Khandwa Road, Simrol, Indore - 453552. INDIA
 **Phone**: +91-731-660-3566  
 **ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X) | 
 **Profile**: [nipulgs.github.io](https://nipulgs.github.io)
-
-
+  
+  
+  
 
 ## Professional Summary
 
@@ -36,7 +37,7 @@ Library and Information Science professional with more than 12 years of experien
 
 
 ## Indian Institute of Technology Indore  
-**Library Information Assistant**  <span style="float:right"><strong>June 2021 – Present</strong></span>
+**Library Information Assistant**  <span style="float:right"><strong>June 2021 – Present</strong></span>  
 **Key Responsibilities**
 - Managing LRC IT infrastructure, Koha, DSpace, LibDDS Portal, library website, and Linux-based servers
 - Supporting institutional repository services, e-resources, faculty profiles, and research activities
@@ -48,7 +49,7 @@ Library and Information Science professional with more than 12 years of experien
 
 
 ## INFLIBNET Centre, Gandhinagar  
-**Project Officer (eSS) / Project Associate (eSS)**  <span style="float:right"><strong>Sept 2016 – May 2021</strong></span>
+**Project Officer (eSS) / Project Associate (eSS)**  <span style="float:right"><strong>Sept 2016 – May 2021</strong></span>  
 **Key Contributions**
 - Managed IP-based access, licensing, activation, and usage statistics of e-resources
 - Maintained CORAL ERM system and university directory databases
@@ -58,7 +59,7 @@ Library and Information Science professional with more than 12 years of experien
 
 
 ## Indian Institute of Technology Bhubaneswar  
-**Library Professional Trainee**  <span style="float:right"><strong>Dec 2014 – Aug 2016</strong></span>
+**Library Professional Trainee**  <span style="float:right"><strong>Dec 2014 – Aug 2016</strong></span>  
 **Roles Included**
 - Book acquisition, cataloguing, and classification work
 - RFID-based circulation and e-resource usage analysis
@@ -68,7 +69,7 @@ Library and Information Science professional with more than 12 years of experien
 
 
 ## Indian Institute of Technology Gandhinagar  
-**Library Trainee**  <span style="float:right"><strong>July 2013 – July 2014</strong></span>
+**Library Trainee**  <span style="float:right"><strong>July 2013 – July 2014</strong></span>  
 **Roles Included**
 - Collection development, shelving, and acquisition support
 - Routine professional library operations and user services
