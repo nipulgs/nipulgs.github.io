@@ -120,7 +120,7 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-## Memberships of Professional Bodies
+## Membership of Professional Societies
 ### Lifetime Member
 - FoSTEML – Federation of Science, Technology, Engineering & Management Libraries, India (since: 2026)
 - SALIS – Society for the Advancement of Library and Information Science (since: 2025)
@@ -131,12 +131,8 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-## Contributions as Resource Person, Technical Resource Person
-- Taken training session on Digital Library Infrastructure (Dspace) at IIT Indore
-- LIB-TAN Monthly Talk Series – 2 (Resource Person) Webinar delivered as Library Trainee Alumni, IIT Gandhinagar.
-- PDP: Design and Development of Institutional Repository Using DSpace (Resource Person) at UGC-HRDC, Sardar Patel University, Vallabh Vidyanagar.
-- National workshops on DSpace, KOHA, e-Resource Management at INFLIBNET Centre, Gandhinagar
-- SOUL 2.0 and ICT workshops for LIS professionals at INFLIBNET Centre, Gandhinagar
+## Contributions as Resource Person
+
 
 
 ---
@@ -145,6 +141,10 @@ Library and Information Science professional with over a decade of experience ac
 **Mr. Rajesh Kumar**  
 Deputy Librarian & Incharge, LRC, IIT Indore  
 Email: rajesh@iiti.ac.in | Phone: +91-731-660-3341
+
+**Dr. Bibhuti Bhusan Sahoo**
+Deputy Librarian, Central Library, IIT Bhubaneswar
+Email: dylibrarian@iitbbs.ac.in | Ph No.: +91 674-713-8755
 
 **Mr. Dinesh Ranjan Pradhan**  
 Scientist-D, INFLIBNET Centre, Gandhinagar  
