@@ -39,7 +39,12 @@ Library and Information Science professional with over a decade of experience ac
 
 ## Indian Institute of Technology Indore 
 
-**Designation:** Library Information Assistant <p align="right"><span class="exp-duration" data-start="2021-06-01" data-end="present"> </span></p>
+**Designation:** Library Information Assistant 
+
+**Duration:**   <span class="exp-duration" 
+                    data-start="2021-06-01" 
+                    data-end="present"> 
+                </span>
 
 **Key Responsibilities:**
 - Skilled in LRC IT infrastructure, DSpace, Koha, Library Website, LibDDS Portal and Linux-based server management
@@ -52,8 +57,12 @@ Library and Information Science professional with over a decade of experience ac
 
 
 ## INFLIBNET Centre, Gandhinagar
-**Designation:** Project Officer (eSS), Project Associate (eSS) <p align="right"><span class="exp-duration"       data-start="2016-09-01"      data-end="2021-05-31"></span></p>
+**Designation:** Project Officer (eSS), Project Associate (eSS)
 
+**Duration:**   <span class="exp-duration"
+                    data-start="2016-09-01"
+                    data-end="2021-05-31">
+                </span>
 
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
@@ -62,10 +71,12 @@ Library and Information Science professional with over a decade of experience ac
 - Involved in data verification for NIRF and Shodhganga
 
 ## IIT Bhubaneswar  
-**Designation:** Library Professional Trainee <p align="right"><span class="exp-duration"
-      data-start="2014-12-01"
-      data-end="2016-08-31">
-</span></p>
+**Designation:** Library Professional Trainee
+
+**Duration:**   <span class="exp-duration"
+                    data-start="2014-12-01"
+                    data-end="2016-08-31">
+                </span>
 
 **Roles Included:**
 - Book acquisition, Cataloguing, and Classification.
@@ -76,10 +87,10 @@ Library and Information Science professional with over a decade of experience ac
 ## IIT Gandhinagar
 **Designation:** Library Trainee
 
-**Duration:** <span class="exp-duration"
-      data-start="2013-07-01"
-      data-end="2014-07-31">
-</span>
+**Duration:**   <span class="exp-duration"
+                    data-start="2013-07-01"
+                    data-end="2014-07-31">
+                </span>
 
 **Roles Included:**
 - Book acquisition, collection development, self-rectification, book shelving, etc.
