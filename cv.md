@@ -10,12 +10,12 @@ title: "Curriculum Vitae"
 **Languages Known:** Gujarati, Hindi, English  
 
 
-## Professional Summary
+# Professional Summary
 Library and Information Science professional with over a decade of experience across premier institutions like IITs and INFLIBNET Centre. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, scholarly communication, and web-based library services.
 
 ---
 
-## Educational Qualifications
+# Educational Qualifications
 
 ### University Grants Commission of India (July 2018 & July 2019)  
 UGC-NET in Library and Information Science  
@@ -35,7 +35,7 @@ Grade: Second Class with 52.44 (Percentage)
  
 ---
 
-## Professional Experience
+# Professional Experience
 **Total Professional Experience:**  
 <span id="totalExperience"></span>
 
@@ -110,7 +110,7 @@ Grade: Second Class with 52.44 (Percentage)
 
 ---
 
-## Membership of Professional Societies
+# Membership of Professional Societies
 ### Lifetime Member
 - FoSTEML – Federation of Science, Technology, Engineering & Management Libraries, India (since: 2026)
 - SALIS – Society for the Advancement of Library and Information Science (since: 2025)
@@ -121,7 +121,7 @@ Grade: Second Class with 52.44 (Percentage)
 
 ---
 
-## Contributions as Resource Person
+# Contributions as Resource Person
 - Taken training session on Digital Library Infrastructure (Dspace), IIT Indore 2025 - As resource Person
 - LIB-TAN Monthly Talk Series – 2 Webinar, IIT Gandhinagar 2022 - As resource person
 - "KOHA: Installation and Operations", INFLIBNET Centre Gandhinagar, 2018 - As technical resource person
@@ -134,7 +134,7 @@ Grade: Second Class with 52.44 (Percentage)
 
 ---
 
-## Training, Workshops, Webinar, etc. Attended
+# Training, Workshops, Webinar, etc. Attended
 - Librarian Colloquium: L³ Webinar Series (Season 1), HDFC Library, Ashoka University (2026)
 - Conference CLSTL 2025, IIT Gandhinagar (2025)
 - Summer School on DSpace, IIT Delhi (2024)
@@ -145,7 +145,7 @@ Grade: Second Class with 52.44 (Percentage)
 
 ---
 
-## References
+# References
 **Mr. Rajesh Kumar**  
 Deputy Librarian & Incharge, LRC, IIT Indore  
 Email: rajesh@iiti.ac.in | Phone: +91-731-660-3341  
