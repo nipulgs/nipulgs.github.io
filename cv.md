@@ -17,9 +17,9 @@ Library and Information Science professional with over a decade of experience ac
 
 ## Educational Qualifications
 
-### University Grants Commission of India (July 2018 & July 2019) 
-UGC-NET in Library and Information Science
-For Assistant Professor Only
+### University Grants Commission of India (July 2018 & July 2019)  
+UGC-NET in Library and Information Science  
+For Assistant Professor Only  
 
 ### Sardar Patel University - Vallabh Vidyanagar 2013  
 Master in Library and Information Science (M.LISc.)  
