@@ -16,7 +16,7 @@ title: "Curriculum Vitae"
 
 Library and Information Science professional with more than 12 years of experience in premier institutions including IITs and INFLIBNET Centre. Skilled in digital library systems, institutional repositories, e-resource management, RFID technologies, library automation, scholarly communication, Linux server management, and web-based library services. Experienced in supporting research, academic infrastructure, and user-centric library innovations.
 
----
+
 
 ## Educational Qualifications
 
@@ -25,13 +25,13 @@ Library and Information Science professional with more than 12 years of experien
 - Bachelor in Library & Information Science (B.LISc.) – First Class (CGPA: 6.93), Sardar Patel University, Vallabh Vidyanagar, **2012**  
 - Bachelor of Commerce (B.Com.) – Second Class (52.44%), Saurashtra University, Rajkot, **2011**  
 
----
+
 
 ## Professional Experience
 
 > **Total Professional Experience:** **12+ Years** *(July 2013 – Present)*
 
----
+
 
 ## Indian Institute of Technology Indore  
 **Library Information Assistant**  <span style="float:right"><strong>June 2021 – Present</strong></span>
@@ -43,7 +43,7 @@ Library and Information Science professional with more than 12 years of experien
 - Working on bibliometric analysis, research visibility support, and automation technologies
 - Delivering technical troubleshooting and user-oriented library services
 
----
+
 
 ## INFLIBNET Centre, Gandhinagar  
 **Project Officer (eSS) / Project Associate (eSS)**  <span style="float:right"><strong>Sept 2016 – May 2021</strong></span>
@@ -53,7 +53,7 @@ Library and Information Science professional with more than 12 years of experien
 - Conducted technical training on SOUL, Koha, CORAL, and DSpace
 - Supported data verification activities for NIRF, NBA, and Shodhganga projects
 
----
+
 
 ## Indian Institute of Technology Bhubaneswar  
 **Library Professional Trainee**  <span style="float:right"><strong>Dec 2014 – Aug 2016</strong></span>
@@ -63,7 +63,7 @@ Library and Information Science professional with more than 12 years of experien
 - Inter-library loan and document delivery support
 - Assisted in library automation and institutional repository management
 
----
+
 
 ## Indian Institute of Technology Gandhinagar  
 **Library Trainee**  <span style="float:right"><strong>July 2013 – July 2014</strong></span>
@@ -71,7 +71,7 @@ Library and Information Science professional with more than 12 years of experien
 - Collection development, shelving, and acquisition support
 - Routine professional library operations and user services
 
----
+
 
 ## Technical Skills
 
@@ -82,7 +82,7 @@ Library and Information Science professional with more than 12 years of experien
 - **Research Support**: Bibliometric Analysis, Research Visibility Tools  
 - **Data & APIs**: Metadata Harvesting, Usage Statistics, Cost-per-Use Analysis, R Programming  
 
----
+
 
 ## Membership of Professional Societies
 
@@ -95,7 +95,7 @@ Library and Information Science professional with more than 12 years of experien
 - ADINET – Advance Information Network of Libraries in Gujarat, **2016**  
 - ILA – Indian Library Association, **2015**  
 
----
+
 
 ## Contributions as Resource Person
 
@@ -108,7 +108,7 @@ Library and Information Science professional with more than 12 years of experien
 - PDP on Institutional Repository using DSpace | Resource Person | **2017**  
 - Librarians’ Day – Re-imagining Today’s Librarianship | Organizing Committee Member | **2017**  
 
----
+
 
 ## Training, Workshops & Webinars Attended
 
@@ -120,7 +120,7 @@ Library and Information Science professional with more than 12 years of experien
 - Training on Turnitin, CMIE Prowess, MLA Bibliography, Scopus, and LeapSpace
 - GeM Portal Procurement Training organized by IIT Indore
 
----
+
 
 ## References
 
@@ -134,7 +134,7 @@ dylibrarian@iitbbs.ac.in | +91-674-713-8755
 Scientist-D, INFLIBNET Centre, Gandhinagar    
 dinesh@inflibnet.ac.in  
 
----
+
 
 <div align="center">
 
