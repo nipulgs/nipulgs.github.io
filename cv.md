@@ -38,7 +38,8 @@ Library and Information Science professional with more than 12 years of experien
 
 ## Indian Institute of Technology Indore  
 **Library Information Assistant**  <span style="float:right"><strong>June 2021 – Present</strong></span>  
-**Key Responsibilities**
+
+**Key Responsibilities:**
 - Managing LRC IT infrastructure, Koha, DSpace, LibDDS Portal, library website, and Linux-based servers
 - Supporting institutional repository services, e-resources, faculty profiles, and research activities
 - Developed AI-based chatbot services and A–Z e-resource access portal
@@ -50,7 +51,8 @@ Library and Information Science professional with more than 12 years of experien
 
 ## INFLIBNET Centre, Gandhinagar  
 **Project Officer (eSS) / Project Associate (eSS)**  <span style="float:right"><strong>Sept 2016 – May 2021</strong></span>  
-**Key Contributions**
+
+**Key Contributions:**
 - Managed IP-based access, licensing, activation, and usage statistics of e-resources
 - Maintained CORAL ERM system and university directory databases
 - Conducted technical training on SOUL, Koha, CORAL, and DSpace
@@ -60,7 +62,8 @@ Library and Information Science professional with more than 12 years of experien
 
 ## Indian Institute of Technology Bhubaneswar  
 **Library Professional Trainee**  <span style="float:right"><strong>Dec 2014 – Aug 2016</strong></span>  
-**Roles Included**
+
+**Roles Included:**
 - Book acquisition, cataloguing, and classification work
 - RFID-based circulation and e-resource usage analysis
 - Inter-library loan and document delivery support
@@ -70,7 +73,8 @@ Library and Information Science professional with more than 12 years of experien
 
 ## Indian Institute of Technology Gandhinagar  
 **Library Trainee**  <span style="float:right"><strong>July 2013 – July 2014</strong></span>  
-**Roles Included**
+
+**Roles Included:**
 - Collection development, shelving, and acquisition support
 - Routine professional library operations and user services
 
