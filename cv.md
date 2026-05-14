@@ -30,11 +30,8 @@ Grade: First Class with 6.93 (CGPA)
 Bachelor in Commerce (B.Com)  
 Grade: Second Class with 52.44 (Percentage)  
 
-
----
-
-## Certifications
-- UGC-NET Qualified (July 2018 & July 2019)
+### Certifications
+- UGC-NET Qualified (July 2018 & July 2019)  
 
 ---
 
