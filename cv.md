@@ -58,10 +58,7 @@ Grade: Second Class with 52.44 (Percentage)
 - Strong problem-solving, technical support, and communication skills with a user-focused approach
 - Experienced in bibliometric analysis, research data support, and library automation technologies
 - Dedicated to improving library services through technology, innovation, and continuous learning
-<p align="right"><span class="exp-duration" 
-                    data-start="2021-06-01" 
-                    data-end="present"> 
-                </span></p>
+
 
 ## INFLIBNET Centre, Gandhinagar
 **Designation:** Project Officer (eSS), Project Associate (eSS)
