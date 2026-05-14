@@ -12,8 +12,8 @@ Khandwa Road, Simrol, Indore - 453552. INDIA
 **ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X) | 
 **Profile**: [nipulgs.github.io](https://nipulgs.github.io)
   
-  
-  
+<br>
+<br>
 
 ## Professional Summary
 
