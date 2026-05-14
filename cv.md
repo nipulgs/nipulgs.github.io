@@ -37,7 +37,10 @@ Library and Information Science professional with over a decade of experience ac
 **Total Professional Experience:**  
 <span id="totalExperience"></span>
 
-## Indian Institute of Technology Indore
+## Indian Institute of Technology Indore <p align="right"><span class="exp-duration"
+      data-start="2021-06-01"
+      data-end="present">
+</span></p>
 **Designation:** Library Information Assistant
 
 **Duration:** <span class="exp-duration"
