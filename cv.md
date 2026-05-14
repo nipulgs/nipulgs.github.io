@@ -2,23 +2,6 @@
 title: "Curriculum Vitae - Mr. Nipul Gordhanbhai Shihora"
 ---
 
-<p align="left">
-<img src="images/nipulgs.png" width="140" height="170" style="border:2px solid #444;">
-</p>
-
-# Mr. Nipul Gordhanbhai Shihora
-
-## Curriculum Vitae (CV)
-
-**Library Information Assistant**  
-Indian Institute of Technology Indore
-
-📧 nipul@iiti.ac.in | nipulgs@gmail.com  
-📞 +91-97229-54642  
-
-**ORCID:** https://orcid.org/0000-0002-4480-388X
-
----
 
 ## Personal Details
 **Name:** Mr. Nipul Gordhanbhai Shihora  
@@ -56,7 +39,7 @@ Library and Information Science professional with over a decade of experience ac
 **Total Professional Experience:**  
 <span id="totalExperience"></span>
 
-### Indian Institute of Technology Indore
+## Indian Institute of Technology Indore
 **Designation:** Library Information Assistant
 
 **Duration:** <span class="exp-duration"
@@ -69,7 +52,7 @@ Library and Information Science professional with over a decade of experience ac
 - Manage e-resources, access authentication, and vendor liaison
 
 
-### INFLIBNET Centre, Gandhinagar
+## INFLIBNET Centre, Gandhinagar
 **Designation:** Project Officer (eSS), Project Associate (eSS)
 
 **Duration:** <span class="exp-duration"
@@ -83,7 +66,7 @@ Library and Information Science professional with over a decade of experience ac
 - Provided training on SOUL, Koha, CORAL, DSpace
 - Involved in data verification for NIRF and Shodhganga
 
-### IIT Bhubaneswar  
+## IIT Bhubaneswar  
 **Designation:** Library Professional Trainee
 
 **Duration:** <span class="exp-duration"
@@ -97,7 +80,7 @@ Library and Information Science professional with over a decade of experience ac
 - Provided ILL/DDS Service and user support
 - Managed Library Automation, Institutional Digital Repository, Library Portal, etc.
 
-### IIT Gandhinagar
+## IIT Gandhinagar
 **Designation:** Library Trainee
 
 **Duration:** <span class="exp-duration"
