@@ -9,7 +9,6 @@ title: "Curriculum Vitae"
 **ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)   
 **Languages Known:** Gujarati, Hindi, English  
 
----
 
 ## Professional Summary
 Library and Information Science professional with over a decade of experience across premier institutions like IITs and INFLIBNET Centre. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, scholarly communication, and web-based library services.
@@ -34,7 +33,6 @@ Grade: First Class with 6.93 (CGPA)
 Bachelor in Commerce (B.Com)  
 Grade: Second Class with 52.44 (Percentage)  
  
-
 ---
 
 ## Professional Experience
@@ -71,8 +69,8 @@ Grade: Second Class with 52.44 (Percentage)
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
 - Maintained CORAL - ERM system and university directory
-- Provided training on SOUL, Koha, CORAL, DSpace
-- Involved in data verification for NIRF and Shodhganga
+- Provided support in training on SOUL, Koha, CORAL, DSpace
+- Involved in data verification for NIRF, NBA and Shodhganga
 
 ## IIT Bhubaneswar  
 **Designation:** Library Professional Trainee
@@ -112,17 +110,6 @@ Grade: Second Class with 52.44 (Percentage)
 
 ---
 
-## Seminar, Webinar, Training & Workshops Attended (National & International)
-- Librarian Colloquium: L³ Webinar Series (Season 1), HDFC Library, Ashoka University (2026)
-- Conference CLSTL 2025, IIT Gandhinagar (2025)
-- Summer School on DSpace, IIT Delhi (2024)
-- Author Workshops by Publishers organized by eSS/ ONOS/ IITI
-- Research Data Management & Open Access (SLA, ORCID, FAIR, IITD, INFLIBNET)
-- Turnitin Training, CMIE Prowess, MLA Bibliography, Scopus, LeapSpace database workshops
-- GeM Portal Procurement Training organized by IIT Indore
-
----
-
 ## Membership of Professional Societies
 ### Lifetime Member
 - FoSTEML – Federation of Science, Technology, Engineering & Management Libraries, India (since: 2026)
@@ -144,6 +131,17 @@ Grade: Second Class with 52.44 (Percentage)
 - “PDP: Design and Development of Institutional Repository Using Dspace”, UGC-Human Resource Development Centre, Sardar Patel University, VallabhVidyanagar in 2017 - As a resource person
 - “Librarian s’ day – 2017, Re-imagining Today’s Librarian-ship”,Collaboration of ADINET, Ahmedabad and Adani Institute of Infrastructure, Ahmedabad in 2017 - As Organizing Committee Member
 
+
+---
+
+## Training, Workshops, Webinar, etc. Attended
+- Librarian Colloquium: L³ Webinar Series (Season 1), HDFC Library, Ashoka University (2026)
+- Conference CLSTL 2025, IIT Gandhinagar (2025)
+- Summer School on DSpace, IIT Delhi (2024)
+- Author Workshops by Publishers organized by eSS/ ONOS/ IITI
+- Research Data Management & Open Access (SLA, ORCID, FAIR, IITD, INFLIBNET)
+- Turnitin Training, CMIE Prowess, MLA Bibliography, Scopus, LeapSpace database workshops
+- GeM Portal Procurement Training organized by IIT Indore
 
 ---
 
