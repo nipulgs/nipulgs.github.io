@@ -3,7 +3,7 @@ title: "Curriculum Vitae - Mr. Nipul Gordhanbhai Shihora"
 ---
 
 <p align="left">
-<img src="photo.jpg" width="140" height="170" style="border:2px solid #444;">
+<img src="images/nipulgs.png" width="140" height="170" style="border:2px solid #444;">
 </p>
 
 # Mr. Nipul Gordhanbhai Shihora
