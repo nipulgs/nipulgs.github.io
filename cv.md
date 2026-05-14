@@ -11,8 +11,7 @@ Khandwa Road, Simrol, Indore - 453552. INDIA
 **Phone**: +91-731-660-3566  
 **ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X) | 
 **Profile**: [nipulgs.github.io](https://nipulgs.github.io)
-  
-<br>
+
 <br>
 
 ## Professional Summary
@@ -78,11 +77,12 @@ Library and Information Science professional with more than 12 years of experien
 - Collection development, shelving, and acquisition support
 - Routine professional library operations and user services
 
+## Soft Skills
+- **Languages**: Gujarati, Hindi, English 
 
 
 ## Technical Skills
 
-- **Languages**: Gujarati, Hindi, English  
 - **Programing Language**: html, php, R-Programing, etc.
 - **Library Systems**: Koha, SOUL, LibSys, DSpace, CORAL, VuFind, SubjectPlus  
 - **Web Technologies**: WordPress, Drupal, GitHub  
@@ -112,7 +112,7 @@ Library and Information Science professional with more than 12 years of experien
 - LIB-TAN Monthly Talk Series – 2 Webinar, IIT Gandhinagar, Resource Person, **2022**  
 - KOHA: Installation and Operations, INFLIBNET Centre, Technical Resource Person, **2018**  
 - E-Resource Management (CORAL ERMS), INFLIBNET Centre, Technical Resource Person, **2017–18**  
-- SOUL 2.0 Training Program, INFLIBNET Centre | Technical Resource Person | **2017–18**  
+- SOUL 2.0 Training Program, INFLIBNET Centre, Technical Resource Person, **2017–18**  
 - Capacity Building Program on ICT for LIS (Hindi),  Technical Resource Person,  **2017**  
 - PDP on Institutional Repository using DSpace, Resource Person,  **2017**  
 - Librarians’ Day – Re-imagining Today’s Librarianship, Organizing Committee Member, **2017**  
