@@ -3,12 +3,12 @@ title: "Curriculum Vitae"
 ---
 
 
-**Designation:** Library Information Assistant 
-**Current Affiliation:** Learning Resource Center, Indian Institute of Technology Indore 
-**Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com) 
-**Phone:** 0731-660-3566 
-**ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
-**Languages Known:** Gujarati, Hindi, English 
+**Designation:** Library Information Assistant  
+**Current Affiliation:** Learning Resource Center, Indian Institute of Technology Indore  
+**Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
+**Phone:** 0731-660-3566  
+**ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)   
+**Languages Known:** Gujarati, Hindi, English  
 
 ---
 
@@ -148,9 +148,9 @@ Library and Information Science professional with over a decade of experience ac
 Deputy Librarian & Incharge, LRC, IIT Indore  
 Email: rajesh@iiti.ac.in | Phone: +91-731-660-3341
 
-**Dr. Bibhuti Bhusan Sahoo** 
-Deputy Librarian, Central Library, IIT Bhubaneswar 
-Email: dylibrarian@iitbbs.ac.in | Ph No.: +91 674-713-8755 
+**Dr. Bibhuti Bhusan Sahoo**  
+Deputy Librarian, Central Library, IIT Bhubaneswar  
+Email: dylibrarian@iitbbs.ac.in | Ph No.: +91 674-713-8755  
 
 **Mr. Dinesh Ranjan Pradhan**  
 Scientist-D, INFLIBNET Centre, Gandhinagar  
