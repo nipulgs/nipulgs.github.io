@@ -32,7 +32,13 @@ Library and Information Science professional with over a decade of experience ac
 
 ## Professional Experience
 
-### Indian Institute of Technology Indore (June 2021 – Present)  
+### Indian Institute of Technology Indore
+**Duration:**  
+<span class="exp-duration"
+      data-start="2013-07-01"
+      data-end="2014-07-31">
+</span>
+
 **Designation:** Library Information Assistant  
 **Key Responsibilities:**
 - Maintain LRC IT infrastructure, DSpace, Koha, Library Website, and LibDDS Portal
@@ -112,3 +118,68 @@ Email: rajesh@iiti.ac.in | Phone: +91-731-660-3341
 **Mr. Dinesh Ranjan Pradhan**  
 Scientist-D, INFLIBNET Centre, Gandhinagar  
 Email: dinesh@inflibnet.ac.in
+
+---
+
+<script>
+
+function calculateExperience(startDate, endDate){
+
+    const start = new Date(startDate);
+
+    const end = endDate === "present"
+        ? new Date()
+        : new Date(endDate);
+
+    let years = end.getFullYear() - start.getFullYear();
+
+    let months = end.getMonth() - start.getMonth();
+
+    if(months < 0){
+        years--;
+        months += 12;
+    }
+
+    return {
+        years: years,
+        months: months,
+        text: `${years} Years ${months} Months`
+    };
+}
+
+function formatDate(dateString){
+
+    if(dateString === "present"){
+        return "Present";
+    }
+
+    const date = new Date(dateString);
+
+    return date.toLocaleDateString('en-US', {
+        month:'long',
+        year:'numeric'
+    });
+}
+
+document.querySelectorAll('.exp-duration').forEach(function(element){
+
+    const start = element.getAttribute('data-start');
+
+    const end = element.getAttribute('data-end');
+
+    const experience = calculateExperience(start, end);
+
+    element.innerHTML = `
+        ${formatDate(start)} – ${formatDate(end)}
+        <em>(Approx. ${experience.text})</em>
+    `;
+});
+
+const overallStart = "2013-07-01";
+
+const totalExp = calculateExperience(overallStart, "present");
+
+document.getElementById('totalExperience').innerHTML =
+`${totalExp.text} (July 2013 – Present)`;
+
+</script>
