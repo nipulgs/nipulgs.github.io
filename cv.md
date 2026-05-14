@@ -10,7 +10,7 @@ title: "Curriculum Vitae"
 **Profile**: [nipulgs.github.io](https://nipulgs.github.io)
 **Languages**: Gujarati, Hindi, English  
 
----
+
 
 ## Professional Summary
 
@@ -99,26 +99,26 @@ Library and Information Science professional with more than 12 years of experien
 
 ## Contributions as Resource Person
 
-- Digital Library Infrastructure (DSpace), IIT Indore | Resource Person | **2025**  
-- LIB-TAN Monthly Talk Series – 2 Webinar, IIT Gandhinagar | Resource Person | **2022**  
-- KOHA: Installation and Operations, INFLIBNET Centre | Technical Resource Person | **2018**  
-- E-Resource Management (CORAL ERMS), INFLIBNET Centre | Technical Resource Person | **2017–18**  
+- Digital Library Infrastructure (DSpace), IIT Indore, Resource Person, **2025**  
+- LIB-TAN Monthly Talk Series – 2 Webinar, IIT Gandhinagar, Resource Person, **2022**  
+- KOHA: Installation and Operations, INFLIBNET Centre, Technical Resource Person, **2018**  
+- E-Resource Management (CORAL ERMS), INFLIBNET Centre, Technical Resource Person, **2017–18**  
 - SOUL 2.0 Training Program, INFLIBNET Centre | Technical Resource Person | **2017–18**  
-- Capacity Building Program on ICT for LIS (Hindi) | Technical Resource Person | **2017**  
-- PDP on Institutional Repository using DSpace | Resource Person | **2017**  
-- Librarians’ Day – Re-imagining Today’s Librarianship | Organizing Committee Member | **2017**  
+- Capacity Building Program on ICT for LIS (Hindi),  Technical Resource Person,  **2017**  
+- PDP on Institutional Repository using DSpace, Resource Person,  **2017**  
+- Librarians’ Day – Re-imagining Today’s Librarianship, Organizing Committee Member, **2017**  
 
 
 
 ## Training, Workshops & Webinars Attended
 
-- Librarian Colloquium: L³ Webinar Series (Season 1), Ashoka University — **2026**
-- Conference CLSTL 2025, IIT Gandhinagar — **2025**
-- Summer School on DSpace, IIT Delhi — **2024**
-- Author workshops organized by eSS / ONOS / IIT Indore
-- Research Data Management & Open Access workshops (SLA, ORCID, FAIR, IITD, INFLIBNET)
-- Training on Turnitin, CMIE Prowess, MLA Bibliography, Scopus, and LeapSpace
-- GeM Portal Procurement Training organized by IIT Indore
+- Librarian Colloquium: L³ Webinar Series (Season 1), Ashoka University, **2026**  
+- Conference CLSTL 2025, IIT Gandhinagar, **2025**  
+- Summer School on DSpace, IIT Delhi, **2024**  
+- Author workshops organized by eSS / ONOS / IIT Indore  
+- Research Data Management & Open Access workshops (SLA, ORCID, FAIR, IITD, INFLIBNET)  
+- Training on Turnitin, CMIE Prowess, MLA Bibliography, Scopus, and LeapSpace  
+- GeM Portal Procurement Training organized by IIT Indore  
 
 
 
@@ -127,18 +127,20 @@ Library and Information Science professional with more than 12 years of experien
 - **Mr. Rajesh Kumar**  
 Deputy Librarian, LRC, IIT Indore  
 rajesh@iiti.ac.in | +91-731-660-3341  
+  
 - **Dr. Bibhuti Bhusan Sahoo**  
 Deputy Librarian, Central Library, IIT Bhubaneswar  
 dylibrarian@iitbbs.ac.in | +91-674-713-8755  
+  
 - **Mr. Dinesh Ranjan Pradhan**  
 Scientist-D, INFLIBNET Centre, Gandhinagar    
 dinesh@inflibnet.ac.in  
 
-
+  
+---
 
 <div align="center">
 
-**Curriculum Vitae**  
-*Updated: May 2026*
+Nipul Gordhanbhai Shihora, LIA, IIT Indore
 
 </div>
