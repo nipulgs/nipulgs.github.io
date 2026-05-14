@@ -1,3 +1,7 @@
+---
+title: "Curriculum Vitae - Mr. Nipul Gordhanbhai Shihora"
+---
+
 ## Personal Details
 **Name:** Mr. Nipul Gordhanbhai Shihora  
 **Date of Birth:** October 8, 1989  
@@ -31,33 +35,54 @@ Library and Information Science professional with over a decade of experience ac
 ---
 
 ## Professional Experience
+**Total Professional Experience:**  
+<span id="totalExperience"></span>
 
-### Indian Institute of Technology Indore <span class="exp-duration" data-start="2013-07-01" data-end="2014-07-31"> </span>
-
-**Designation:** Library Information Assistant  
+### Indian Institute of Technology Indore
+**Designation:** Library Information Assistant
+**Duration:**  
+<span class="exp-duration"
+      data-start="2021-06-01"
+      data-end="present">
+</span>
 **Key Responsibilities:**
 - Maintain LRC IT infrastructure, DSpace, Koha, Library Website, and LibDDS Portal
 - Manage e-resources, access authentication, and vendor liaison
 
 
-### INFLIBNET Centre, Gandhinagar (Sep 2016 – May 2021)  
-**Designation:** Project Officer (eSS), Project Associate (eSS) 
+### INFLIBNET Centre, Gandhinagar
+**Designation:** Project Officer (eSS), Project Associate (eSS)
+**Duration:**  
+<span class="exp-duration"
+      data-start="2016-09-01"
+      data-end="2021-05-31">
+</span>
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
 - Maintained CORAL - ERM system and university directory
 - Provided training on SOUL, Koha, CORAL, DSpace
 - Involved in data verification for NIRF and Shodhganga
 
-### IIT Bhubaneswar (Dec 2014 – Aug 2016)  
-**Designation:** Library Professional Trainee  
+### IIT Bhubaneswar  
+**Designation:** Library Professional Trainee 
+**Duration:**  
+<span class="exp-duration"
+      data-start="2014-12-01"
+      data-end="2016-08-31">
+</span>
 **Roles Included:**
 - Book acquisition, Cataloguing, and Classification.
 - RFID-based circulation and e-resource usage analysis
 - Provided ILL/DDS Service and user support
 - Managed Library Automation, Institutional Digital Repository, Library Portal, etc.
 
-### IIT Gandhinagar (Jul 2013 – Jul 2014)  
+### IIT Gandhinagar
 **Designation:** Library Trainee 
+**Duration:**  
+<span class="exp-duration"
+      data-start="2013-07-01"
+      data-end="2014-07-31">
+</span>
 **Roles Included:**
 - Book acquisition, collection development, self-rectification, book shelving, etc.
 - All library professional work.
