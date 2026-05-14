@@ -5,7 +5,7 @@ title: "Curriculum Vitae"
 **Designation:** Library Information Assistant
 **Current Affiliation:** Learning Resource Center, Indian Institute of Technology Indore
 **Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
-**Phone:** +91-97229-54642  
+**Phone:** 0731-660-3566
 **ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
 **Languages Known:** Gujarati, Hindi, English.
 
