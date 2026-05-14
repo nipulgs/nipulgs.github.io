@@ -18,6 +18,10 @@ Library and Information Science professional with over a decade of experience ac
 
 ## Educational Qualifications
 
+### University Grants Commission of India (July 2018 & July 2019) 
+UGC-NET in Library and Information Science
+For Assistant Professor Only
+
 ### Sardar Patel University - Vallabh Vidyanagar 2013  
 Master in Library and Information Science (M.LISc.)  
 Grade: First Class with 7.16 (CGPA)  
@@ -29,9 +33,7 @@ Grade: First Class with 6.93 (CGPA)
 ### Saurashtra University - Rajkot 2011  
 Bachelor in Commerce (B.Com)  
 Grade: Second Class with 52.44 (Percentage)  
-
-### Certifications
-- UGC-NET Qualified (July 2018 & July 2019)  
+ 
 
 ---
 
