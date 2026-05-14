@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae - Mr. Nipul Gordhanbhai Shihora"
+title: "Curriculum Vitae"
 ---
 
 
