@@ -2,10 +2,8 @@
 title: "Curriculum Vitae"
 ---
 
-
-## Personal Details
-**Name:** Mr. Nipul Gordhanbhai Shihora  
-**Date of Birth:** October 8, 1989  
+**Designation:** Library Information Assistant
+**Current Affiliation:** Learning Resource Center, Indian Institute of Technology Indore
 **Email:** [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
 **Phone:** +91-97229-54642  
 **ORCID:** [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
@@ -132,7 +130,14 @@ Library and Information Science professional with over a decade of experience ac
 ---
 
 ## Contributions as Resource Person
-
+- Taken training session on Digital Library Infrastructure (Dspace), IIT Indore 2025 - As resource Person
+- LIB-TAN Monthly Talk Series – 2 Webinar, IIT Gandhinagar 2022 - As resource person
+- "KOHA: Installation and Operations", INFLIBNET Centre Gandhinagar, 2018 - As technical resource person
+- “E-Resource Management” (CORAL ERMS Software), INLIBNET Centre Gandhinagar, 2017-18 - As a Technical Resource Person
+- “SOUL 2.0 Training Program”, INLIBNET Centre Gandhinagar (Every SOUL Training in 2017-18) - As a Technical Resource Person
+- “Five-Days National Workshop on Capacity Building Program on ICT for LIS (Hindi)”, INFLIBNET Centre Gandhinagar, 2017 - As technical resource person
+- “PDP: Design and Development of Institutional Repository Using Dspace”, UGC-Human Resource Development Centre, Sardar Patel University, VallabhVidyanagar in 2017 - As a resource person
+- “Librarian s’ day – 2017, Re-imagining Today’s Librarian-ship”,Collaboration of ADINET, Ahmedabad and Adani Institute of Infrastructure, Ahmedabad in 2017 - As Organizing Committee Member
 
 
 ---
