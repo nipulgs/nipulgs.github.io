@@ -14,7 +14,7 @@ title: "Curriculum Vitae"
 ---
 
 ## Professional Summary
-Library and Information Science professional with over a decade of experience across premier institutions like IIT Indore, INFLIBNET Centre, IIT Bhubaneswar, and IIT Gandhinagar. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, scholarly communication, and web-based library services.
+Library and Information Science professional with over a decade of experience across premier institutions like IITs and INFLIBNET Centre. Proficient in digital library systems, e-resource management, RFID technologies, institutional repositories, scholarly communication, and web-based library services.
 
 ---
 
@@ -48,8 +48,13 @@ Library and Information Science professional with over a decade of experience ac
 </span>
 
 **Key Responsibilities:**
-- Maintain LRC IT infrastructure, DSpace, Koha, Library Website, and LibDDS Portal
-- Manage e-resources, access authentication, and vendor liaison
+- Skilled in LRC IT infrastructure, DSpace, Koha, Library Website, LibDDS Portal and Linux-based server management
+- Experienced in supporting research activities, e-resources, institutional repositories, and faculty profiles
+- Developed user-friendly library services including an AI-based chatbot and A–Z e-resource portal
+- Provided document delivery, inter-library loan, and research assistance to faculty and students
+- Strong problem-solving, technical support, and communication skills with a user-focused approach
+- Experienced in bibliometric analysis, research data support, and library automation technologies
+- Dedicated to improving library services through technology, innovation, and continuous learning
 
 
 ## INFLIBNET Centre, Gandhinagar
@@ -104,29 +109,30 @@ Library and Information Science professional with over a decade of experience ac
 
 ---
 
-## Seminar, Webinar, Training & Workshops Attended
+## Seminar, Webinar, Training & Workshops Attended (National & International)
 - Librarian Colloquium: L³ Webinar Series (Season 1), HDFC Library, Ashoka University (2026)
 - Conference CLSTL 2025, IIT Gandhinagar (2025)
 - Summer School on DSpace, IIT Delhi (2024)
-- Author Workshops by Publishers
-- Research Data Management & Open Access (SLA, ORCID, FAIR)
-- Turnitin Training, CMIE Prowess, MLA Bibliography
-- GeM Portal Procurement Training
+- Author Workshops by Publishers organized by eSS/ ONOS/ IITI
+- Research Data Management & Open Access (SLA, ORCID, FAIR, IITD, INFLIBNET)
+- Turnitin Training, CMIE Prowess, MLA Bibliography, Scopus, LeapSpace database workshops
+- GeM Portal Procurement Training organized by IIT Indore
 
 ---
 
 ## Memberships of Professional Bodies
 ### Lifetime Member
-- FoSTEML – Federation of Science, Technology, Engineering & Management Libraries, India (Member since: 2026)
-- SALIS – Society for the Advancement of Library and Information Science (Member since: 2025)
-- CGLA – Central Government Library Association India (Member since: 2025)
-- IATLIS – Indian Association of Teachers of Library and Information Science (Member since: 2024)
-- ADINET – Advance Information Network of Libraries in Gujarat (Member since: 2016)
-- ILA – Indian Library Association India (Member since: 2015)
+- FoSTEML – Federation of Science, Technology, Engineering & Management Libraries, India (since: 2026)
+- SALIS – Society for the Advancement of Library and Information Science (since: 2025)
+- CGLA – Central Government Library Association India (since: 2025)
+- IATLIS – Indian Association of Teachers of Library and Information Science (since: 2024)
+- ADINET – Advance Information Network of Libraries in Gujarat (since: 2016)
+- ILA – Indian Library Association India (since: 2015)
 
 ---
 
 ## Contributions as Resource Person, Technical Resource Person
+- Taken training session on Digital Library Infrastructure (Dspace) at IIT Indore
 - LIB-TAN Monthly Talk Series – 2 (Resource Person) Webinar delivered as Library Trainee Alumni, IIT Gandhinagar.
 - PDP: Design and Development of Institutional Repository Using DSpace (Resource Person) at UGC-HRDC, Sardar Patel University, Vallabh Vidyanagar.
 - National workshops on DSpace, KOHA, e-Resource Management at INFLIBNET Centre, Gandhinagar
