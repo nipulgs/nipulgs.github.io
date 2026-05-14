@@ -38,16 +38,8 @@ Library and Information Science professional with over a decade of experience ac
 <span id="totalExperience"></span>
 
 ## Indian Institute of Technology Indore 
-<p align="right"><span class="exp-duration"
-      data-start="2021-06-01"
-      data-end="present">
-</span></p>
-**Designation:** Library Information Assistant
 
-**Duration:** <span class="exp-duration"
-      data-start="2021-06-01"
-      data-end="present">
-</span>
+**Designation:** Library Information Assistant <p align="right"><span class="exp-duration" data-start="2021-06-01" data-end="present"> </span></p>
 
 **Key Responsibilities:**
 - Skilled in LRC IT infrastructure, DSpace, Koha, Library Website, LibDDS Portal and Linux-based server management
@@ -60,12 +52,8 @@ Library and Information Science professional with over a decade of experience ac
 
 
 ## INFLIBNET Centre, Gandhinagar
-**Designation:** Project Officer (eSS), Project Associate (eSS)
+**Designation:** Project Officer (eSS), Project Associate (eSS) <p align="right"><span class="exp-duration"       data-start="2016-09-01"      data-end="2021-05-31"></span></p>
 
-**Duration:** <span class="exp-duration"
-      data-start="2016-09-01"
-      data-end="2021-05-31">
-</span>
 
 **Key Contributions:**
 - Handled IP-based access, licensing, resource activation, and usage analytics
@@ -74,12 +62,10 @@ Library and Information Science professional with over a decade of experience ac
 - Involved in data verification for NIRF and Shodhganga
 
 ## IIT Bhubaneswar  
-**Designation:** Library Professional Trainee
-
-**Duration:** <span class="exp-duration"
+**Designation:** Library Professional Trainee <p align="right"><span class="exp-duration"
       data-start="2014-12-01"
       data-end="2016-08-31">
-</span>
+</span></p>
 
 **Roles Included:**
 - Book acquisition, Cataloguing, and Classification.
