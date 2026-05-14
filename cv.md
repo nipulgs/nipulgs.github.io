@@ -2,6 +2,24 @@
 title: "Curriculum Vitae - Mr. Nipul Gordhanbhai Shihora"
 ---
 
+<p align="left">
+<img src="photo.jpg" width="140" height="170" style="border:2px solid #444;">
+</p>
+
+# Mr. Nipul Gordhanbhai Shihora
+
+## Curriculum Vitae (CV)
+
+**Library Information Assistant**  
+Indian Institute of Technology Indore
+
+📧 nipul@iiti.ac.in | nipulgs@gmail.com  
+📞 +91-97229-54642  
+
+**ORCID:** https://orcid.org/0000-0002-4480-388X
+
+---
+
 ## Personal Details
 **Name:** Mr. Nipul Gordhanbhai Shihora  
 **Date of Birth:** October 8, 1989  
