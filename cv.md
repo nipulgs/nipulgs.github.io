@@ -146,7 +146,7 @@ Library and Information Science professional with over a decade of experience ac
 ## References
 **Mr. Rajesh Kumar**  
 Deputy Librarian & Incharge, LRC, IIT Indore  
-Email: rajesh@iiti.ac.in | Phone: +91-731-660-3341
+Email: rajesh@iiti.ac.in | Phone: +91-731-660-3341  
 
 **Dr. Bibhuti Bhusan Sahoo**  
 Deputy Librarian, Central Library, IIT Bhubaneswar  
