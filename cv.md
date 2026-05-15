@@ -2,9 +2,7 @@
 title: "Curriculum Vitae"
 ---
 
-<div style="position: relative; width: 100%; min-height: 180px;">
 
-<div style="position: absolute; right: 0; top: 0;">
 <img src="/images/nipulgs.png" alt="Passport Photo" width="140" style="border: 3px solid whitesmoke; padding:2px;" />
 
 
