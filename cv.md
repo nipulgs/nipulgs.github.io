@@ -18,7 +18,7 @@ Learning Resource Center <br>
 Khandwa Road, Simrol, Indore - 453552, INDIA<br><br>
 
 <b>Email:</b> <a href="mailto:nipul@iiti.ac.in">nipul@iiti.ac.in</a>, 
-<a href="mailto:nipulgs@gmail.com">nipulgs@gmail.com</a> | 
+<a href="mailto:nipulgs@gmail.com">nipulgs@gmail.com</a> <br>
 
 <b>Phone:</b> +91-731-660-3566<br>
 
