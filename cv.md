@@ -1,7 +1,16 @@
 ---
 title: ""
+header: false
 ---
 
+<style>
+header,
+.site-header,
+.page-header,
+h1:first-of-type {
+    display: none !important;
+}
+</style>
 
 <table style="width:auto; border:none;">
 <tr style="border:none;">
