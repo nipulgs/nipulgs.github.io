@@ -3,7 +3,7 @@ title: ""
 ---
 
 
-<table style="width:100%; border:none;">
+<table style="width:auto; border:none;">
 <tr style="border:none;">
 
 <td style="width:75%; border:none; vertical-align:top;">
@@ -18,7 +18,7 @@ Learning Resource Center <br>
 Khandwa Road, Simrol, Indore - 453552, INDIA<br><br>
 
 <b>Email:</b> <a href="mailto:nipul@iiti.ac.in">nipul@iiti.ac.in</a>, 
-<a href="mailto:nipulgs@gmail.com">nipulgs@gmail.com</a><br>
+<a href="mailto:nipulgs@gmail.com">nipulgs@gmail.com</a> | 
 
 <b>Phone:</b> +91-731-660-3566<br>
 
