@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: ""
 ---
 
 
@@ -8,17 +8,31 @@ title: "Curriculum Vitae"
 
 <td style="width:75%; border:none; vertical-align:top;">
 
-## Nipul Gordhanbhai Shihora
+<h3>Nipul Gordhanbhai Shihora</h3>
 
-Library Information Assistant  
-Learning Resource Center  
-**Indian Institute of Technology Indore**  
-Khandwa Road, Simrol, Indore - 453552, INDIA  
+<p>
 
-**Email**: [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
-**Phone**: +91-731-660-3566  
-**ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
-**Profile**: [nipulgs.github.io](https://nipulgs.github.io)
+Library Information Assistant <br>
+Learning Resource Center <br>
+<b>Indian Institute of Technology Indore</b><br>
+Khandwa Road, Simrol, Indore - 453552, INDIA<br><br>
+
+<b>Email:</b> <a href="mailto:nipul@iiti.ac.in">nipul@iiti.ac.in</a>, 
+<a href="mailto:nipulgs@gmail.com">nipulgs@gmail.com</a><br>
+
+<b>Phone:</b> +91-731-660-3566<br>
+
+<b>ORCID:</b> 
+<a href="https://orcid.org/0000-0002-4480-388X">
+0000-0002-4480-388X
+</a> | 
+
+<b>Profile:</b> 
+<a href="https://nipulgs.github.io">
+nipulgs.github.io
+</a>
+
+</p>
 
 </td>
 
@@ -31,10 +45,6 @@ Khandwa Road, Simrol, Indore - 453552, INDIA
 </tr>
 </table>
 
-
-| | |
-|---|---|
-| Library Information Assistant  <br> Learning Resource Center  <br> **Indian Institute of Technology Indore**  <br> Khandwa Road, Simrol, Indore - 453552, INDIA  <br><br> **Email**: [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com) <br> **Phone**: +91-731-660-3566  <br> **ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X) , **Profile**: [nipulgs.github.io](https://nipulgs.github.io) | <img src="/images/nipulgs.png" alt="Passport Photo" width="140" style="border:3px solid whitesmoke; padding:2px;" /> |
 
 
 ---
