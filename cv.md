@@ -2,6 +2,27 @@
 title: "Curriculum Vitae"
 ---
 
+<div style="position: relative; width: 100%; min-height: 180px;">
+
+<div style="position: absolute; right: 0; top: 0;">
+<img src="/images/nipulgs.png" alt="Passport Photo" width="140" style="border: 3px solid red; padding:2px;" />
+</div>
+
+# Nipul Gordhanbhai Shihora
+
+**Library Information Assistant**  
+Learning Resource Center  
+**Indian Institute of Technology Indore**  
+Khandwa Road, Simrol, Indore - 453552, INDIA  
+
+**Email**: [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com)  
+**Phone**: +91-731-660-3566  
+**ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X)  
+**Profile**: [nipulgs.github.io](https://nipulgs.github.io)
+
+</div>
+
+
 
 Library Information Assistant  
 Learning Resource Center  
