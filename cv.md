@@ -1,60 +1,16 @@
 ---
-title: ""
-header: false
+title: "Curriculum Vitae"
 ---
 
-<style>
-header,
-.site-header,
-.page-header,
-h1:first-of-type {
-    display: none !important;
-}
-</style>
 
-<table style="width:auto; border:none;">
-<tr style="border:none;">
-
-<td style="width:75%; border:none; vertical-align:top;">
-
-<h3>Nipul Gordhanbhai Shihora</h3>
-
-<p>
-
-Library Information Assistant <br>
-Learning Resource Center <br>
-<b>Indian Institute of Technology Indore</b><br>
-Khandwa Road, Simrol, Indore - 453552, INDIA<br><br>
-
-<b>Email:</b> <a href="mailto:nipul@iiti.ac.in">nipul@iiti.ac.in</a>, 
-<a href="mailto:nipulgs@gmail.com">nipulgs@gmail.com</a> <br>
-
-<b>Phone:</b> +91-731-660-3566<br>
-
-<b>ORCID:</b> 
-<a href="https://orcid.org/0000-0002-4480-388X">
-0000-0002-4480-388X
-</a> | 
-
-<b>Profile:</b> 
-<a href="https://nipulgs.github.io">
-nipulgs.github.io
-</a>
-
-</p>
-
-</td>
-
-<td style="width:25%; border:none; text-align:right; vertical-align:top;">
-
-<img src="/images/nipulgs.png" alt="Passport Photo" width="140" style="border:3px solid whitesmoke; padding:2px; border-radius:5px;" />
-
-</td>
-
-</tr>
-</table>
-
-
+Library Information Assistant  
+Learning Resource Center  
+**Indian Institute of Technology Indore**  
+Khandwa Road, Simrol, Indore - 453552. INDIA   
+**Email**: [nipul@iiti.ac.in](mailto:nipul@iiti.ac.in), [nipulgs@gmail.com](mailto:nipulgs@gmail.com) | 
+**Phone**: +91-731-660-3566  
+**ORCID**: [0000-0002-4480-388X](https://orcid.org/0000-0002-4480-388X) | 
+**Profile**: [nipulgs.github.io](https://nipulgs.github.io)
 
 ---
 
