@@ -129,14 +129,17 @@ Library and Information Science professional with more than 12 years of experien
 ## References
 
 - **Mr. Rajesh Kumar**  
-Deputy Librarian, LRC, IIT Indore  
-rajesh@iiti.ac.in | +91-731-660-3341
+Deputy Librarian,  
+Learning Resource Center,  
+Indian Institute of Technology Indore,  
+Khandwa Road, Simrol, Indore – 453552. Madhya Pradesh.   
+rajesh@iiti.ac.in | +91-731-660-3341  
 
 - **Prof. Meghna Vyas**
-Professor & Head,
-P.G. Department of Library & Information Science
-Sardar Patel University, Vallabh Vidyanagar -388120
-E-mail: meghnavyas08@spuvvn.edu | +91-2692-226880
+Professor & Head,  
+P.G. Department of Library & Information Science  
+Sardar Patel University, Vallabh Vidyanagar -388120. Gujarat.  
+E-mail: meghnavyas08@spuvvn.edu | +91-2692-226880  
 
 <!-- 
   
