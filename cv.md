@@ -130,7 +130,15 @@ Library and Information Science professional with more than 12 years of experien
 
 - **Mr. Rajesh Kumar**  
 Deputy Librarian, LRC, IIT Indore  
-rajesh@iiti.ac.in | +91-731-660-3341  
+rajesh@iiti.ac.in | +91-731-660-3341
+
+- **Prof. Meghna Vyas**
+Professor & Head,
+P.G. Department of Library & Information Science
+Sardar Patel University, Vallabh Vidyanagar -388120
+E-mail: meghnavyas08@spuvvn.edu | +91-2692-226880
+
+<!-- 
   
 - **Dr. Bibhuti Bhusan Sahoo**  
 Deputy Librarian, Central Library, IIT Bhubaneswar  
@@ -140,6 +148,7 @@ dylibrarian@iitbbs.ac.in | +91-674-713-8755
 Scientist-D, INFLIBNET Centre, Gandhinagar    
 dinesh@inflibnet.ac.in  
 
+ -->
   
 ---
 
