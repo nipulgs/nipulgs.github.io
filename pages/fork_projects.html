@@ -1,403 +1,262 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>GitHub Fork Projects - Nipul Shihora</title>
+<title>GitHub Fork Projects</title>
 
-  <style>
-    body {
-      margin: 20px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 16px;
-      color: #2c3e50;
-      line-height: 1.6;
-      background: #fff;
-    }
+<style>
+  body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color: #2c3e50;
+  }
 
-    h1 {
-      font-weight: 700;
-      margin-bottom: 8px;
-      font-size: 2rem;
-      color: #222;
-    }
+  .projects {
+    max-width: 1000px;
+    margin: auto;
+  }
 
-    .intro {
-      margin-bottom: 24px;
-      color: #666;
-      font-size: 0.98rem;
-    }
+  .projects h1 {
+    font-size: 2rem;
+    margin-bottom: 6px;
+    color: #222;
+  }
 
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 22px;
-    }
+  .projects-subtitle {
+    color: #777;
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+  }
 
-    .card {
-      background: #fff;
-      border-left: 6px solid #005a87;
-      border-radius: 10px;
-      box-shadow: 0 2px 7px rgb(0 90 135 / 0.15);
-      transition: all 0.3s ease;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 12px;
+  }
 
-    .card:hover {
-      box-shadow: 0 8px 24px rgb(0 90 135 / 0.35);
-      border-left-color: #0091ff;
-      transform: translateY(-4px);
-    }
+  .project {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 16px 18px;
+    background: #fff;
+    border: 1px solid #e4e9ed;
+    border-left: 5px solid #005a87;
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.25s ease;
+  }
 
-    /* IMAGE SECTION */
-    .card-image {
-      position: relative;
-      overflow: hidden;
-      background: #f2f4f7;
-    }
+  .project:hover {
+    transform: translateX(5px);
+    border-left-color: #0091ff;
+    box-shadow: 0 5px 18px rgba(0, 90, 135, 0.15);
+    background: #fafdff;
+  }
 
-    .card img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      display: block;
-      transition: transform 0.4s ease;
-    }
+  .project-icon {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef6fa;
+    border-radius: 10px;
+    color: #005a87;
+    font-size: 21px;
+  }
 
-    .card:hover img {
-      transform: scale(1.05);
-    }
+  .project-info {
+    flex: 1;
+  }
 
-    /* FORK BADGE */
-    .fork-badge {
-      position: absolute;
-      top: 12px;
-      right: 12px;
-      background: rgba(0, 90, 135, 0.92);
-      color: #fff;
-      padding: 5px 10px;
-      border-radius: 20px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      z-index: 2;
-    }
+  .project-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 3px;
+  }
 
-    .card-content {
-      padding: 20px;
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
+  .project-source {
+    font-size: 0.78rem;
+    color: #888;
+  }
 
-    .card-content h2 {
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin: 0 0 8px;
-      color: #222;
-    }
+  .project-arrow {
+    font-size: 20px;
+    color: #aaa;
+    transition: all 0.25s ease;
+  }
 
-    .card-content p {
-      font-size: 0.95rem;
-      color: #444;
-      margin-bottom: 14px;
-    }
+  .project:hover .project-arrow {
+    color: #0091ff;
+    transform: translateX(4px);
+  }
 
-    .parent-repo {
-      font-size: 0.82rem;
-      color: #777;
-      margin-bottom: 14px;
-    }
+  .fork-label {
+    display: inline-block;
+    margin-left: 7px;
+    padding: 2px 7px;
+    border-radius: 12px;
+    background: #eef3f6;
+    color: #005a87;
+    font-size: 0.68rem;
+    font-weight: 600;
+    vertical-align: middle;
+  }
 
-    .parent-repo strong {
-      color: #555;
-    }
+  .github-link {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 8px 16px;
+    background: #005a87;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition: background 0.25s ease;
+  }
 
-    .buttons {
-      margin-top: auto;
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
+  .github-link:hover {
+    background: #0091ff;
+  }
+</style>
 
-    .card-content a {
-      display: inline-block;
-      padding: 7px 14px;
-      background: #005a87;
-      color: #fff;
-      font-size: 0.88rem;
-      font-weight: 600;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
-
-    .card-content a:hover {
-      background: #0091ff;
-    }
-
-    .secondary-btn {
-      background: #eef3f6 !important;
-      color: #005a87 !important;
-    }
-
-    .secondary-btn:hover {
-      background: #dceaf2 !important;
-    }
-
-    .github-profile {
-      margin-top: 28px;
-      text-align: center;
-    }
-
-    .github-profile a {
-      color: #005a87;
-      font-weight: 600;
-      text-decoration: none;
-    }
-
-    .github-profile a:hover {
-      color: #0091ff;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        margin: 14px;
-      }
-
-      h1 {
-        font-size: 1.6rem;
-      }
-
-      .card img {
-        height: 160px;
-      }
-    }
-  </style>
 </head>
 
 <body>
 
+<div class="projects">
+
   <h1>GitHub Fork Projects</h1>
 
-  <div class="intro">
-    Open-source projects forked, explored, and customized by Nipul Shihora.
+  <div class="projects-subtitle">
+    Open-source projects explored and maintained through my GitHub profile.
   </div>
 
-  <div class="container">
+  <div class="project-list">
 
-    <!-- Predatory Journals Detection -->
-    <div class="card">
-      <div class="card-image">
-        <span class="fork-badge">Fork</span>
-        <img
-          src="https://opengraph.githubassets.com/1/nipulgs/predatory_journals_detection"
-          alt="Predatory Journals Detection">
-      </div>
+```
+<a class="project"
+   href="https://github.com/nipulgs/predatory_journals_detection"
+   target="_blank">
 
-      <div class="card-content">
-        <h2>Predatory Journals Detection</h2>
+  <div class="project-icon">🔍</div>
 
-        <p>
-          A research-oriented project focused on detecting and analysing
-          characteristics associated with predatory journals.
-        </p>
-
-        <div class="parent-repo">
-          <strong>Forked from:</strong>
-          nctu-dcs-lab/predatory_journals_detection
-        </div>
-
-        <div class="buttons">
-          <a
-            href="https://github.com/nipulgs/predatory_journals_detection"
-            target="_blank">
-            GitHub
-          </a>
-
-          <a
-            href="https://nipulgs.github.io/predatory_journals_detection/"
-            target="_blank"
-            class="secondary-btn">
-            Demo
-          </a>
-        </div>
-      </div>
+  <div class="project-info">
+    <div class="project-name">
+      Predatory Journals Detection
+      <span class="fork-label">Fork</span>
     </div>
 
+    <div class="project-source">
+      nctu-dcs-lab / predatory_journals_detection
+    </div>
+  </div>
 
-    <!-- Sienna Accessibility Widget -->
-    <div class="card">
-      <div class="card-image">
-        <span class="fork-badge">Fork</span>
-        <img
-          src="https://opengraph.githubassets.com/1/nipulgs/Sienna-Accessibility-Widget"
-          alt="Sienna Accessibility Widget">
-      </div>
+  <div class="project-arrow">→</div>
+</a>
 
-      <div class="card-content">
-        <h2>Sienna Accessibility Widget</h2>
 
-        <p>
-          A web accessibility widget designed to improve accessibility
-          features and usability for a wider range of users.
-        </p>
+<a class="project"
+   href="https://github.com/nipulgs/Sienna-Accessibility-Widget"
+   target="_blank">
 
-        <div class="parent-repo">
-          <strong>Forked from:</strong>
-          bennyluk/Sienna-Accessibility-Widget
-        </div>
+  <div class="project-icon">♿</div>
 
-        <div class="buttons">
-          <a
-            href="https://github.com/nipulgs/Sienna-Accessibility-Widget"
-            target="_blank">
-            GitHub
-          </a>
-
-          <a
-            href="https://nipulgs.github.io/Sienna-Accessibility-Widget/"
-            target="_blank"
-            class="secondary-btn">
-            Demo
-          </a>
-        </div>
-      </div>
+  <div class="project-info">
+    <div class="project-name">
+      Sienna Accessibility Widget
+      <span class="fork-label">Fork</span>
     </div>
 
+    <div class="project-source">
+      bennyluk / Sienna-Accessibility-Widget
+    </div>
+  </div>
 
-    <!-- KerkoApp -->
-    <div class="card">
-      <div class="card-image">
-        <span class="fork-badge">Fork</span>
-        <img
-          src="https://opengraph.githubassets.com/1/nipulgs/kerkoapp"
-          alt="KerkoApp">
-      </div>
+  <div class="project-arrow">→</div>
+</a>
 
-      <div class="card-content">
-        <h2>KerkoApp</h2>
 
-        <p>
-          A faceted-search web application for bibliographies managed
-          through Zotero, useful for scholarly information discovery.
-        </p>
+<a class="project"
+   href="https://github.com/nipulgs/kerkoapp"
+   target="_blank">
 
-        <div class="parent-repo">
-          <strong>Forked from:</strong>
-          whiskyechobravo/kerkoapp
-        </div>
+  <div class="project-icon">📚</div>
 
-        <div class="buttons">
-          <a
-            href="https://github.com/nipulgs/kerkoapp"
-            target="_blank">
-            GitHub
-          </a>
-
-          <a
-            href="https://nipulgs.github.io/kerkoapp/"
-            target="_blank"
-            class="secondary-btn">
-            Demo
-          </a>
-        </div>
-      </div>
+  <div class="project-info">
+    <div class="project-name">
+      KerkoApp
+      <span class="fork-label">Fork</span>
     </div>
 
+    <div class="project-source">
+      whiskyechobravo / kerkoapp
+    </div>
+  </div>
 
-    <!-- Invenio -->
-    <div class="card">
-      <div class="card-image">
-        <span class="fork-badge">Fork</span>
-        <img
-          src="https://opengraph.githubassets.com/1/nipulgs/invenio"
-          alt="Invenio Digital Library Framework">
-      </div>
+  <div class="project-arrow">→</div>
+</a>
 
-      <div class="card-content">
-        <h2>Invenio</h2>
 
-        <p>
-          A digital library framework for building repositories,
-          scholarly platforms, and research information systems.
-        </p>
+<a class="project"
+   href="https://github.com/nipulgs/invenio"
+   target="_blank">
 
-        <div class="parent-repo">
-          <strong>Forked from:</strong>
-          inveniosoftware/invenio
-        </div>
+  <div class="project-icon">🗄️</div>
 
-        <div class="buttons">
-          <a
-            href="https://github.com/nipulgs/invenio"
-            target="_blank">
-            GitHub
-          </a>
-
-          <a
-            href="https://invenio.readthedocs.io/"
-            target="_blank"
-            class="secondary-btn">
-            Documentation
-          </a>
-        </div>
-      </div>
+  <div class="project-info">
+    <div class="project-name">
+      Invenio
+      <span class="fork-label">Fork</span>
     </div>
 
-
-    <!-- draw.io -->
-    <div class="card">
-      <div class="card-image">
-        <span class="fork-badge">Fork</span>
-        <img
-          src="https://opengraph.githubassets.com/1/nipulgs/drawio"
-          alt="draw.io">
-      </div>
-
-      <div class="card-content">
-        <h2>draw.io</h2>
-
-        <p>
-          A browser-based diagramming and visual collaboration platform
-          useful for creating system diagrams, workflows, and architectures.
-        </p>
-
-        <div class="parent-repo">
-          <strong>Forked from:</strong>
-          jgraph/drawio
-        </div>
-
-        <div class="buttons">
-          <a
-            href="https://github.com/nipulgs/drawio"
-            target="_blank">
-            GitHub
-          </a>
-
-          <a
-            href="https://nipulgs.github.io/drawio/src/main/webapp/"
-            target="_blank"
-            class="secondary-btn">
-            Demo
-          </a>
-        </div>
-      </div>
+    <div class="project-source">
+      inveniosoftware / invenio
     </div>
+  </div>
+
+  <div class="project-arrow">→</div>
+</a>
+
+
+<a class="project"
+   href="https://github.com/nipulgs/drawio"
+   target="_blank">
+
+  <div class="project-icon">📐</div>
+
+  <div class="project-info">
+    <div class="project-name">
+      draw.io
+      <span class="fork-label">Fork</span>
+    </div>
+
+    <div class="project-source">
+      jgraph / drawio
+    </div>
+  </div>
+
+  <div class="project-arrow">→</div>
+</a>
+```
 
   </div>
 
+<a class="github-link"
+  href="https://github.com/nipulgs"
+  target="_blank">
+View All GitHub Projects → </a>
 
-  <div class="github-profile">
-    View all projects on
-    <a
-      href="https://github.com/nipulgs"
-      target="_blank">
-      GitHub @nipulgs
-    </a>
-  </div>
+</div>
 
 </body>
 </html>
