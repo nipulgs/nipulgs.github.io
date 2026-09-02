@@ -1,68 +1,149 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nipul G. Shihora</title>
-  <link rel="stylesheet" href="css/style.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic and professional portfolio of Nipul G. Shihora, Library and Information Assistant at IIT Indore, with expertise in library technology, digital repositories, research support and scholarly communication.">
+  <meta name="author" content="Nipul G. Shihora">
+  <meta name="theme-color" content="#f6f8fc">
+  <meta property="og:title" content="Nipul G. Shihora | Academic & Library Technology Portfolio">
+  <meta property="og:description" content="Library technology, digital library systems, research support and professional activities at IIT Indore.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nipulgs.github.io/">
+  <title>Nipul G. Shihora | Academic & Library Technology Portfolio</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <script src="js/script.js" defer></script>
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
-  <div class="page-wrap">
-<!-- <header>
-<div class="header-left">
-    <a href="#" style="text-decoration: none; color: inherit;">
-    <img src="images/logo.png" alt="IIT Indore Logo" class="iiti-logo"/>
-    <div class="inst-name">Academic Profile</div> </a>
-  </div>
-</header> -->
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header>
-  <div class="header-left">
-    <a href="https://nipulgs.github.io">
-      <div class="inst-name">Academic Profile</div>
-    </a>
-  </div>
-   <div class="header-right">
-    <img src="images/india.gif" class="india-logo"/>
-     
-  </div>
-</header>
-  
-    <div class="container">
-      <aside class="sidebar">
-        <div class="profile-box">
-          <img src="images/nipulgs.png" alt="Nipul G. Shihora" class="profile-img"/>
-          <h2>Nipul Gordhanbhai Shihora</h2>
-          <p>Library Information Assistant, <br> LRC, IIT Indore</p>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Nipul G. Shihora home">
+        <span class="brand-mark">NG</span>
+        <span><strong>Nipul G. Shihora</strong><small>Academic &amp; Library Technology</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#work">Work</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="top-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">☼</button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a>
+      <a href="#work">Work</a><a href="#research">Research</a><a href="#contact">Contact</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> Library • Technology • Research</div>
+          <h1>Connecting <span>library services</span> with technology and research impact.</h1>
+          <p class="hero-text">Library and Information Assistant at the Learning Resource Center, Indian Institute of Technology Indore, working across library systems, digital repositories, e-resources, research visibility and scholarly communication.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">Explore my work <span>↗</span></a>
+            <a class="btn btn-secondary" href="pages/contact.html">Get in touch</a>
+          </div>
+          <div class="quick-stats" aria-label="Professional highlights">
+            <div><strong>12+</strong><span>Years experience</span></div>
+            <div><strong>4</strong><span>Premier institutions</span></div>
+            <div><strong>UGC-NET</strong><span>2018 &amp; 2019</span></div>
+          </div>
         </div>
-        <nav>
-          <ul>
-            <li onclick="loadPage('pages/experience.html')">Experience</li>
-            <li onclick="loadPage('pages/qualification.html')">Qualification</li>
-            <li onclick="loadPage('pages/publications.html')">Publications</li>
-            <li onclick="loadPage('pages/membership.html')">Memberships</li>
-            <li onclick="loadPage('pages/activities.html')">Professional Activities</li>
-            <li onclick="loadPage('pages/contact.html')">Contact</li><br>
-            <!-- <li onclick="loadPage('mycard.html')">My Card</li> -->
-            <li onclick="loadPage('pages/implementation.html')">IT Implementation</li>
-            <li onclick="loadPage('/my-blog')">My Tech-Notes</li>
-            <li onclick="loadPage('pages/fork_projects.html')">Developed/Fork Projects</li>
-            <!-- <li onclick="loadPage('all.html')">.</li> -->
-      
-          </ul>
-        </nav>
-      </aside>
-      <main class="content">
-        <iframe id="iframeContent" src="pages/profile.html"></iframe>
-      </main>
 
-    </div>
-    <footer>
-      &copy; 2025 Nipul Gordhanbhai Shihora | Indian Institute of Technology Indore
-    </footer>
+        <div class="hero-visual reveal tilt-card" data-tilt>
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="profile-card glass-card">
+            <div class="profile-image-wrap"><img src="images/nipulgs.png" alt="Portrait of Nipul G. Shihora"></div>
+            <div class="profile-meta"><span class="status-dot"></span> IIT Indore · Madhya Pradesh</div>
+            <h2>Nipul G. Shihora</h2>
+            <p>Library and Information Assistant</p>
+            <div class="mini-tags"><span>Koha</span><span>DSpace</span><span>OpenAlex</span><span>Linux</span></div>
+          </div>
+          <div class="float-chip chip-a">⌘ Digital Libraries</div>
+          <div class="float-chip chip-b">◈ Research Support</div>
+          <div class="float-chip chip-c">◇ Library IT</div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading reveal"><span class="section-kicker">01 / PROFILE</span><h2>Technology-minded library professional</h2><p>A practical profile built around reliable library services, open-source systems, digital scholarship and continuous improvement.</p></div>
+        <div class="about-grid">
+          <article class="glass-card info-card tilt-card reveal" data-tilt><span class="icon-box">⌘</span><h3>Library IT</h3><p>Library automation, Linux servers, web services, RFID workflows and system administration.</p></article>
+          <article class="glass-card info-card tilt-card reveal" data-tilt><span class="icon-box">◫</span><h3>Digital Repositories</h3><p>Institutional repository development, DSpace administration, metadata workflows and digital archiving.</p></article>
+          <article class="glass-card info-card tilt-card reveal" data-tilt><span class="icon-box">◎</span><h3>Research Support</h3><p>Research visibility, bibliometrics, scholarly communication, e-resource support and discovery services.</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading reveal"><span class="section-kicker">02 / EXPERIENCE</span><h2>A career across leading academic institutions</h2><p>From library traineeships to technology-enabled academic library services.</p></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><div class="time">2021 — Present</div><div class="timeline-dot"></div><div class="timeline-card glass-card tilt-card" data-tilt><span class="role-label">Current</span><h3>Library and Information Assistant</h3><p>Learning Resource Center · Indian Institute of Technology Indore</p><small>Library technology • Digital services • Research support</small></div></article>
+          <article class="timeline-item reveal"><div class="time">2016 — 2021</div><div class="timeline-dot"></div><div class="timeline-card glass-card tilt-card" data-tilt><h3>Project Officer / Project Associate</h3><p>e-ShodhSindhu Consortium · INFLIBNET Centre, Gandhinagar</p><small>E-resources • Consortium services • Technical support</small></div></article>
+          <article class="timeline-item reveal"><div class="time">2014 — 2016</div><div class="timeline-dot"></div><div class="timeline-card glass-card tilt-card" data-tilt><h3>Library Professional Trainee</h3><p>Central Library · Indian Institute of Technology Bhubaneswar</p><small>Library operations • User services • Digital systems</small></div></article>
+          <article class="timeline-item reveal"><div class="time">2013 — 2014</div><div class="timeline-dot"></div><div class="timeline-card glass-card tilt-card" data-tilt><h3>Library Trainee</h3><p>Central Library · Indian Institute of Technology Gandhinagar</p><small>Library operations • Technical services</small></div></article>
+        </div>
+        <a class="text-link" href="pages/experience.html">View detailed experience timeline →</a>
+      </section>
+
+      <section class="section" id="expertise">
+        <div class="section-heading reveal"><span class="section-kicker">03 / EXPERTISE</span><h2>Systems, services &amp; research tools</h2></div>
+        <div class="skill-grid">
+          <div class="skill-card glass-card reveal"><span>01</span><h3>Library Automation</h3><p>Koha, RFID, circulation workflows, cataloguing support and OPAC services.</p><div class="skill-line"><i style="--level:92%"></i></div></div>
+          <div class="skill-card glass-card reveal"><span>02</span><h3>Digital Repositories</h3><p>DSpace, metadata, repository maintenance, discovery and digital archiving.</p><div class="skill-line"><i style="--level:90%"></i></div></div>
+          <div class="skill-card glass-card reveal"><span>03</span><h3>Research Analytics</h3><p>Scopus, OpenAlex, bibliometrics, R, research visibility and scholarly metrics.</p><div class="skill-line"><i style="--level:86%"></i></div></div>
+          <div class="skill-card glass-card reveal"><span>04</span><h3>Web &amp; Linux</h3><p>Ubuntu servers, WordPress, HTML/CSS/JS, integrations and troubleshooting.</p><div class="skill-line"><i style="--level:88%"></i></div></div>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading reveal"><span class="section-kicker">04 / IMPLEMENTATION</span><h2>Selected technology implementations</h2><p>Hands-on work connecting open-source technology with library and research workflows.</p></div>
+        <div class="project-grid">
+          <a class="project-card glass-card tilt-card reveal" data-tilt href="pages/implementation.html"><span class="project-number">01</span><h3>Koha Library System</h3><p>Library automation, OPAC services, technical administration and workflow improvement.</p><span class="project-link">View implementation ↗</span></a>
+          <a class="project-card glass-card tilt-card reveal" data-tilt href="pages/implementation.html"><span class="project-number">02</span><h3>DSpace Repository</h3><p>Institutional repository administration, digital archiving and scholarly content access.</p><span class="project-link">View implementation ↗</span></a>
+          <a class="project-card glass-card tilt-card reveal" data-tilt href="pages/implementation.html"><span class="project-number">03</span><h3>Library Web Services</h3><p>Responsive library website services, discovery interfaces and e-resource access.</p><span class="project-link">View implementation ↗</span></a>
+          <a class="project-card glass-card tilt-card reveal" data-tilt href="pages/fork_projects.html"><span class="project-number">04</span><h3>Open-source Projects</h3><p>Selected developed and forked projects for research, library and productivity workflows.</p><span class="project-link">Explore projects ↗</span></a>
+        </div>
+      </section>
+
+      <section class="section split-section" id="research">
+        <div class="research-panel glass-card reveal">
+          <span class="section-kicker">05 / RESEARCH</span>
+          <h2>Quality assessment of Indian scholarly journals</h2>
+          <p>Doctoral research focused on developing a multidimensional quality assessment framework for Indian scholarly journals beyond indexing status.</p>
+          <div class="research-tags"><span>Bibliometrics</span><span>Editorial quality</span><span>Ethics</span><span>Transparency</span><span>Technical readiness</span><span>Sustainability</span></div>
+          <a class="btn btn-primary" href="pages/publications.html">Publications &amp; research ↗</a>
+        </div>
+        <div class="credentials reveal">
+          <article class="glass-card credential"><span class="credential-icon">◆</span><div><strong>M.LISc</strong><p>Sardar Patel University · 2011–2013</p></div></article>
+          <article class="glass-card credential"><span class="credential-icon">◆</span><div><strong>UGC-NET</strong><p>Library &amp; Information Science · 2018 &amp; 2019</p></div></article>
+          <article class="glass-card credential"><span class="credential-icon">◆</span><div><strong>Professional Activities</strong><p>Workshops, training, resource-person sessions and library technology events.</p></div></article>
+          <a class="credential-link" href="pages/qualification.html">View qualifications →</a>
+          <a class="credential-link" href="pages/activities.html">View professional activities →</a>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="contact-card glass-card reveal">
+          <div><span class="section-kicker">06 / CONTACT</span><h2>Let’s connect around libraries, technology and research.</h2><p>For professional collaboration, library technology discussions, research support or academic networking.</p></div>
+          <div class="contact-actions"><a class="btn btn-primary" href="pages/contact.html">Contact &amp; profiles ↗</a><a class="btn btn-secondary" href="pages/membership.html">Professional memberships</a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><div><strong>Nipul G. Shihora</strong><span>Library and Information Assistant · IIT Indore</span></div><div>© 2026 · Built for an open academic web</div></footer>
   </div>
-  
 </body>
 </html>
