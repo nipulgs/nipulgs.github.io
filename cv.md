@@ -21,12 +21,12 @@ Library and Information Science professional with more than 12 years of experien
 ---
 
 ## Educational Qualifications
-```bash
+
 - UGC-NET in Library & Information Science (Assistant Professor Only), University Grants Commission, **2018 & 2019**  
 - Master in Library & Information Science (M.LISc.) – First Class (CGPA: 7.16), Sardar Patel University, Vallabh Vidyanagar, **2013**  
 - Bachelor in Library & Information Science (B.LISc.) – First Class (CGPA: 6.93), Sardar Patel University, Vallabh Vidyanagar, **2012**  
 - Bachelor of Commerce (B.Com.) – Second Class (52.44%), Saurashtra University, Rajkot, **2011**  
-```
+
 ---
 
 ## Professional Experience
